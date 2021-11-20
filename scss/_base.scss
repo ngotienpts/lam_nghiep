@@ -13,12 +13,12 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   font-style: normal;
   line-height: 1.4;
-  color: #1A1A1A;
+  color: #1a1a1a;
   background-color: #fafafa;
 }
 
@@ -27,7 +27,7 @@ textarea,
 select,
 button {
   outline: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border: 0;
 }
 input {
@@ -39,11 +39,11 @@ button {
 }
 a {
   text-decoration: none;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 a:hover {
   text-decoration: none;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 img {
   display: block;
@@ -185,6 +185,12 @@ img {
 .text-gray-1a {
   color: $color-gray-1a;
 }
+.text-blue-00 {
+  color: $color-blue-00;
+}
+.text-black {
+  color: #000;
+}
 /*=================================================================*/
 .bg-blue-00 {
   background-color: $color-blue-00;
@@ -307,6 +313,54 @@ img {
   margin: 0.75rem;
 }
 /*=================================================================*/
+
+.pt-20 {
+  padding-top: 1.25rem;
+}
+.pb-20 {
+  padding-bottom: 1.25rem;
+}
+.pl-20 {
+  padding-left: 1.25rem;
+}
+.pr-20 {
+  padding-right: 1.25rem;
+}
+.py-20 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.px-20 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.p-20 {
+  padding: 1.25rem;
+}
+.mt-20 {
+  margin-top: 1.25rem;
+}
+.mb-20 {
+  margin-bottom: 1.25rem;
+}
+.ml-20 {
+  margin-left: 1.25rem;
+}
+.mr-20 {
+  margin-right: 1.25rem;
+}
+.my-20 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.mx-20 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+.m-20 {
+  margin: 1.25rem;
+}
+/*=================================================================*/
 .form-control-t {
   width: 100%;
   border: none;
@@ -327,6 +381,14 @@ img {
   -moz-border-radius: 999px;
   -ms-border-radius: 999px;
   -o-border-radius: 999px;
+}
+.border-6 {
+  border-radius: 0.375rem;
+  overflow: hidden;
+  -webkit-border-radius: 0.375rem;
+  -moz-border-radius: 0.375rem;
+  -ms-border-radius: 0.375rem;
+  -o-border-radius: 0.375rem;
 }
 /*=================================================================*/
 .fix-text {
@@ -352,5 +414,5 @@ img {
 }
 /*=================================================================*/
 .shadow1 {
-  box-shadow: 0 4px 16px rgb(217 217 217 / 30%)
+  box-shadow: 0 4px 16px rgb(217 217 217 / 30%);
 }
