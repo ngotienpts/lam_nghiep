@@ -182,6 +182,9 @@ img {
 .text-gray-c4 {
   color: $color-gray-c4;
 }
+.text-gray-002 {
+  color: #002C39;
+}
 .text-gray-1a {
   color: $color-gray-1a;
 }
@@ -408,6 +411,20 @@ img {
 .fix-text3 {
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fix-text5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fix-text7 {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
