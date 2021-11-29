@@ -40,7 +40,8 @@
     padding: 0.25rem 3rem 0.25rem 1.125rem;
     height: auto;
 }
-.header-search-btn {
+.header-search-btn,
+.menu-mb-search-btn {
     position: absolute;
     right: 1.125rem;
     top: 50%;
@@ -52,7 +53,8 @@
     background: transparent;
     line-height: 0;
 }
-.header-search-icon {
+.header-search-icon,
+.menu-mb-search-icon {
     color: #c4c4c4;
     font-size: 1.25rem;
 }

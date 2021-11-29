@@ -28,6 +28,251 @@
   </head>
 
   <body>
+    <!-- login -->
+    <section class="login-wrapper">
+      <div class="login-field bg-white border-6">
+          <div class="d-flex align-items-center justify-content-between">
+            <a href="#">
+              <img src="./images/logo.svg" alt="">
+            </a>
+            <ion-icon name="close-outline" class="login-close text-orange-da fs-24"></ion-icon>
+          </div>
+          <p class="text-gray-002 fw-500 fs-14 mt-3">Hãy tham gia chia sẻ cùng lamnghiep.vn</p>
+          <div class="login-form">
+            <form action="">
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="login-name" placeholder="Tên đăng nhập">
+              </div>
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="login-password" placeholder="Mật khẩu">
+              </div>
+              <button class="btn fw-700 fs-14 bg-orange-da text-uppecase mt-3 w-100 login-btn login-login">ĐĂNG NHẬP</button>
+            </form>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <p class="text-gray-002 fs-14 fw-500">Hoặc đăng nhập bằng</p>
+              <p><a href="#" class="text-gray-002 fs-14 fw-500 forgot-password
+                ">Quên mật khẩu?</a></p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-fb text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-facebook" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG FACEBOOK
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-twitter text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-twitter" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG TWITTER
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-gg text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-google" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG EMAIL
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-zalo text-uppecase fs-14">
+              <span class="mr-2">Zalo</span>
+              <span class=" fw-700">ĐĂNG NHẬP BẰNG ZALO</span>
+            </div>
+            <p class="text-gray-002 fw-500 fs-14 mt-3">Chưa có tài khoản?<span class="register-now"> Đăng ký ngay</span></p>
+          </div>
+      </div>
+    </section>
+    <!-- end login -->
+    <!-- register -->
+    <section class="register-wrapper">
+      <div class="register-field bg-white border-6">
+          <div class="d-flex align-items-center justify-content-between">
+            <a href="#">
+              <img src="./images/logo.svg" alt="">
+            </a>
+            <ion-icon name="close-outline" class="register-close text-orange-da fs-24"></ion-icon>
+          </div>
+          <p class="text-gray-002 fw-500 fs-14 mt-3">Đăng ký tài khoản để chia sẻ ngay!</p>
+          <div class="login-form">
+            <form action="">
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="register-name" placeholder="Tên đăng nhập (Ký tự từ a-z, số từ 0-9)">
+              </div>
+              <div class="form-group-t mt-3">
+                <input type="email" class="form-control-t border-6 login-input" name="register-email" placeholder="Địa chỉ Email">
+              </div>
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="register-password" placeholder="Mật khẩu">
+              </div>
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="register-retype-password" placeholder="Nhập lại mật khẩu">
+              </div>
+              <button class="btn fw-700 fs-14 bg-orange-da text-uppecase mt-3 w-100 login-btn register-login">ĐĂNG KÝ</button>
+            </form>
+            <p class="text-gray-002 fs-14 fw-500 mt-3">Hoặc đăng nhập bằng</p>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-fb text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-facebook" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG FACEBOOK
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-twitter text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-twitter" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG TWITTER
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-gg text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-google" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG EMAIL
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-zalo text-uppecase fs-14">
+              <span class="mr-2">Zalo</span>
+              <span class=" fw-700">ĐĂNG NHẬP BẰNG ZALO</span>
+            </div>
+            <p class="text-gray-002 fw-500 fs-14 mt-3">Đã có tài khoản?<span class="login-now"> Đăng nhập ngay</span></p>
+          </div>
+      </div>
+    </section>
+    <!-- end register -->
+    <!-- menu mobile -->
+    <section class="menu-mb-wrapper">
+      <div class="menu-mb-field bg-white">
+        <ion-icon name="close-outline" class="fs-24 text-orange-da d-flex close-menu-mb"></ion-icon>
+        <div class="d-flex align-items-center justify-content-center mt-1">
+          <button class="header-right-item header-right-item__register btn bg-orange-da border-999 fw-700 fs-14">Đăng ký</button>
+          <button class="header-right-item header-right-item__login btn border-999 text-orange-da border-orange-da fw-700 fs-14">Đăng nhập</button>
+        </div>
+        <div class="menu-mb-search mt-12">
+          <form action="">
+            <div class="form-group-t position-relative">
+              <input type="text" class="form-control-t header-search-input" name="menu-mb-search" placeholder="Tìm kiếm">
+              <button class="menu-mb-search-btn">
+                <ion-icon name="search-outline" class="menu-mb-search-icon md hydrated" role="img" aria-label="search outline"></ion-icon>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="menu-mb-scroll">
+          <!-- hot topic mb -->
+          <div class="d-md-none d-block mt-20">
+            <div class="main-left-member-hot bg-white border-6 shadow1">
+              <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Chủ đề nóng</h3>
+              <div class="main-left__content">
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #Rác thải
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #ô nhiễm không khí
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #đốt rừng
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #khai thác gỗ lậu
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #dự án trồng rừng
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end hot topic mb -->
+          <!-- ul list -->
+          <ul class="menu-mb-list">
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/bi_question-lg.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Hỏi - Đáp</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/agriculture.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Nông nghiệp</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/property.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Bất động sản</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/index.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Kinh tế - Tài chính</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/technology.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Khoa học - Công nghệ</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/tree.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Giống cây trồng</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/plus.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Sức khỏe</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/music.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Giải trí</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/law.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Pháp luật</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/carbon_application.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Ứng dụng</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <!-- end ul list -->
+        </div>
+      </div>
+    </section>
+    <!-- end menu mobile -->
     <!-- header -->
     <header id="header" class=" bg-white shadow1">
       <section class="header w-1220">
@@ -58,8 +303,11 @@
           <div class="header-right-item header-right-icon header-right-fb">
             <img src="./images/fb.svg" alt="">
           </div>
-          <button class="header-right-item btn bg-orange-da border-999 fw-700 fs-14">Đăng ký</button>
-          <button class="header-right-item btn border-999 text-orange-da border-orange-da fw-700 fs-14">Đăng nhập</button>
+          <div class="header-right-item header-right-icon header-right-bar">
+            <img src="./images/bar.svg" alt="">
+          </div>
+          <button class="header-right-item header-right-item__register btn bg-orange-da border-999 fw-700 fs-14">Đăng ký</button>
+          <button class="header-right-item header-right-item__login btn border-999 text-orange-da border-orange-da fw-700 fs-14">Đăng nhập</button>
         </div>
         <!-- end header-right -->
       </section>
@@ -545,6 +793,16 @@
             </div>
           </div>
           <!-- end articles second -->
+          <!-- partner mobile -->
+          <div class="d-md-none d-block">
+            <div class="main-right-partner bg-white border-6 shadow1 mt-20 py-3">
+              <h3 class="main-right-partner__title text-black fw-700 fs-14 px-3 pb-3">Đối tác chiến lược</h3>
+              <a href="#">
+                <img src="./images/3.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <!-- end partner mobile -->
           <!-- banner -->
           <div class="banner-pc mt-20 border-6">
             <a href="#">
@@ -552,6 +810,36 @@
             </a>
           </div>
           <!-- end banner -->
+          <!-- gia ca thi truong tablet -->
+          <div class="d-xl-none d-lg-block">
+            <div class="price-wrapper bg-white border-6 shadow1 mt-20">
+              <h3 class="price-title text-orange-da fw-700 fs-14">Giá cả thị trường lâm sản</h3>
+              <p class="price-text-public text-black fs-12 pt-2 pb-3">(Thời điểm tính: Trưa ngày 12/12/2012)</p>
+              <div class="price-table">
+                <div class="price-item">
+                  <div class="price-seed fw-700 fs-12 text-left">Hạt Điều</div>
+                  <div class="price-curren fs-12 text-center">1,4tr VNĐ / Tấn</div>
+                  <div class="price-decrease fw-700 fs-12 text-right">- 354.000 VNĐ</div>
+                </div>
+                <div class="price-item">
+                  <div class="price-seed fw-700 fs-12 text-left">Hạt Điều</div>
+                  <div class="price-curren fs-12 text-center">1,4tr VNĐ / Tấn</div>
+                  <div class="price-increase fw-700 fs-12 text-right">- 354.000 VNĐ</div>
+                </div>
+                <div class="price-item">
+                  <div class="price-seed fw-700 fs-12 text-left">Hạt Điều</div>
+                  <div class="price-curren fs-12 text-center">1,4tr VNĐ / Tấn</div>
+                  <div class="price-decrease fw-700 fs-12 text-right">- 354.000 VNĐ</div>
+                </div>
+                <div class="price-item">
+                  <div class="price-seed fw-700 fs-12 text-left">Hạt Điều</div>
+                  <div class="price-curren fs-12 text-center">1,4tr VNĐ / Tấn</div>
+                  <div class="price-increase fw-700 fs-12 text-right">- 354.000 VNĐ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end gia ca thi truong tablet -->
           <!-- articles next -->
           <div class="main-center-block bg-white border-6 shadow1 mt-20">
             <!-- main block header -->
@@ -603,9 +891,79 @@
             <!-- end main center block fotter -->
           </div>
           <!-- end articles next -->
+          <!-- vote tree tablte -->
+          <div class="d-xl-none d-lg-block">
+            <div class="main-right-vote bg-white border-6 shadow1 mt-20 py-20 px-12">
+              <h3 class="main-right-vote-title text-orange-da fw-700 fs-14">Bình chọn</h3>
+              <p class="main-right-vote-des fs-12 pt-2 pb-3">Hãy bình chọn loại cây giống tốt nhất cho người mới bắt đầu làm nông nghiệp.</p>
+              <div class="main-right-vote-group">
+                <div class="main-right-vote__item">
+                  <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Mi purus, convallis</h3>
+                  <div class="main-right-vote__item-input">
+                    <input type="radio" id="tree-item-1" name="tree-vote" value="tree-item-1" class="radio-input" checked="">
+                    <label for="tree-item-1" class="radio-label"></label>
+                  </div>
+                </div>
+                <div class="main-right-vote__item">
+                  <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Viverra libero faucibus</h3>
+                  <div class="main-right-vote__item-input">
+                    <input type="radio" id="tree-item-2" name="tree-vote" value="tree-item-2" class="radio-input">
+                    <label for="tree-item-2" class="radio-label"></label>
+                  </div>
+                </div>
+                <div class="main-right-vote__item">
+                  <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Turpis tempus nisl, odio convallis</h3>
+                  <div class="main-right-vote__item-input">
+                    <input type="radio" id="tree-item-3" name="tree-vote" value="tree-item-3" class="radio-input">
+                    <label for="tree-item-3" class="radio-label"></label>
+                  </div>
+                </div>
+                <div class="main-right-vote__item">
+                  <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Adipiscing turpis lacus posuere quam</h3>
+                  <div class="main-right-vote__item-input">
+                    <input type="radio" id="tree-item-4" name="tree-vote" value="tree-item-4" class="radio-input">
+                    <label for="tree-item-4" class="radio-label"></label>
+                  </div>
+                </div>
+                <div class="main-right-vote__item">
+                  <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Platea curabitur tristique pharetra</h3>
+                  <div class="main-right-vote__item-input">
+                    <input type="radio" id="tree-item-5" name="tree-vote" value="tree-item-5" class="radio-input">
+                    <label for="tree-item-5" class="radio-label"></label>
+                  </div>
+                </div>
+                <div class="main-right-vote__item">
+                  <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Interdum faucibus enim</h3>
+                  <div class="main-right-vote__item-input">
+                    <input type="radio" id="tree-item-6" name="tree-vote" value="tree-item-6" class="radio-input">
+                    <label for="tree-item-6" class="radio-label"></label>
+                  </div>
+                </div>
+                <div class="main-right-vote__item">
+                  <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Turpis vivamus odio</h3>
+                  <div class="main-right-vote__item-input">
+                    <input type="radio" id="tree-item-7" name="tree-vote" value="tree-item-7" class="radio-input">
+                    <label for="tree-item-7" class="radio-label"></label>
+                  </div>
+                </div>
+                <div class="main-right-vote-line"></div>
+                <div class="main-right-vote-result">
+                  <div class="main-right-vote-result__title text-orange-da fw-700 fs-14">Xem kết quả</div>
+                  <div class="main-right-vote-result__des d-flex align-items-center justify-content-between mt-12">
+                    <p class="fs-14 ">Turpis vivamus odio</p>
+                    <p class="fs-12 fw-700">50%</p>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+          <!--end  vote tree tablte -->
+          <!-- read more -->
           <div class="read-more my-3 text-center">
             <button class="read-more-btn btn bg-orange-da border-999 fw-700 fs-14">Xem thêm</button>
           </div>
+          <!-- end read more -->
         </div>
         <!-- end main block -->
 
@@ -683,13 +1041,17 @@
                 <div class="weather-temperture text-orange-da fw-500">22</div>
                 <div class="weather-temperture__sapo">Trời nhiều mây</div>
               </div>
-              <div class="">
+              <div class="d-xl-block d-none">
                 <p class="weather-city text-orange-da fw-700">Hà Nội, Việt Nam</p>
                 <p class="weather-district">Phường Vĩnh Tuy, Quận Hai Bà Trưng</p>
               </div>
             </div>
             <div class="weather--header-img">
               <img src="./images/Sunny.svg" alt="">
+            </div>
+            <div class="d-xl-none d-block mt-20">
+              <p class="weather-city text-orange-da fw-700">Hà Nội, Việt Nam</p>
+              <p class="weather-district">Phường Vĩnh Tuy, Quận Hai Bà Trưng</p>
             </div>
           </div>
           <div class="weather-line"></div>
@@ -724,8 +1086,164 @@
           </div>
         </div>
         <!-- end weather -->
+        <!-- member hot tablte -->
+        <div class="d-xl-none d-lg-block">
+          <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
+            <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Thành viên nổi bật</h3>
+            <div class="main-left-member-hot__content main-left__content">
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end member hot tablte -->
+        <!-- rating tablte -->
+        <div class="d-xl-none d-lg-block">
+          <div class="main-left-ratings mt-20 bg-white border-6 shadow1">
+            <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Xếp hạng thành viên</h3>
+            <div class="main-left__content">
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a justify-content-between">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                  <p class="main-left-rating__item-point">+1100 điểm</p>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a justify-content-between">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                  <p class="main-left-rating__item-point">+1100 điểm</p>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a justify-content-between">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                  <p class="main-left-rating__item-point">+1100 điểm</p>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a justify-content-between">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                  <p class="main-left-rating__item-point">+1100 điểm</p>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a justify-content-between">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                  <p class="main-left-rating__item-point">+1100 điểm</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end rating tablte -->
+        <!-- hot topic tablte -->
+        <div class="d-xl-none d-lg-block">
+          <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
+            <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Chủ đề nóng</h3>
+            <div class="main-left__content">
+              <div class="main-left__item">
+                <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                  #Rác thải
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                  #ô nhiễm không khí
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                  #đốt rừng
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                  #khai thác gỗ lậu
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                  #dự án trồng rừng
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end hot topic tablte -->
+        <!-- new member tablte -->
+        <div class="d-xl-none d-lg-block">
+          <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
+            <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Thành viên mới</h3>
+            <div class="main-left__content">
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-gray-1a">
+                  <img src="./images/man1.jpg" alt="" class="main-left__item-img">
+                  <h3 class="main-left__item-title fw-700">Nguyễn Văn A</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end new member tablte -->
         <!-- gia ca thi truong -->
-        <div class="price-wrapper bg-white border-6 shadow1 mt-20">
+        <div class="d-xl-block d-none price-wrapper bg-white border-6 shadow1 mt-20">
           <h3 class="price-title text-orange-da fw-700 fs-14">Giá cả thị trường lâm sản</h3>
           <p class="price-text-public text-black fs-12 pt-2 pb-3">(Thời điểm tính: Trưa ngày 12/12/2012)</p>
           <div class="price-table">
@@ -760,83 +1278,111 @@
           </a>
         </div>
         <!-- end partner -->
+        <!-- most view tablet-->
+        <div class="d-xl-none d-lg-block">
+          <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
+            <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Xem nhiều nhất</h3>
+            <div class="main-left__content">
+              <div class="main-left__item">
+                <a href="#" class="text-blue-00 fs-12">
+                  • Iaculis vulputate viverra enim, amet. Fermentum nunc, eget facilisis odio dictumst diam.
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-blue-00 fs-12">
+                  • Iaculis vulputate viverra enim, amet. Fermentum nunc, eget facilisis odio dictumst diam.
+                </a>
+              </div>
+              <div class="main-left__item">
+                <a href="#" class="text-blue-00 fs-12">
+                  • Iaculis vulputate viverra enim, amet. Fermentum nunc, eget facilisis odio dictumst diam.
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end most view tablet-->
         <!-- main right theme -->
-        <div class="main-right-theme mt-20">
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Hỏi Đáp</a>
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Nông Nghiệp</a>
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Bất Động Sản</a>
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Kinh Tế - Tài Chính</a>
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Khoa Học - Công Nghệ</a>
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Giống Cây Trồng</a>
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Sức Khỏe</a>
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Giải Trí</a>
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Pháp Luật</a>
-          <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Ứng Dụng</a>
+        <div class="d-xl-block d-none">
+          <div class="main-right-theme mt-20">
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Hỏi Đáp</a>
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Nông Nghiệp</a>
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Bất Động Sản</a>
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Kinh Tế - Tài Chính</a>
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Khoa Học - Công Nghệ</a>
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Giống Cây Trồng</a>
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Sức Khỏe</a>
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Giải Trí</a>
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Pháp Luật</a>
+            <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Ứng Dụng</a>
+          </div>
         </div>
         <!--end main right theme -->
         <!-- main right vote -->
-        <div class="main-right-vote bg-white border-6 shadow1 mt-20 py-20 px-12">
-          <h3 class="main-right-vote-title text-orange-da fw-700 fs-14">Bình chọn</h3>
-          <p class="main-right-vote-des fs-12 pt-2 pb-3">Hãy bình chọn loại cây giống tốt nhất cho người mới bắt đầu làm nông nghiệp.</p>
-          <div class="main-right-vote-group">
-            <div class="main-right-vote__item">
-              <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Mi purus, convallis</h3>
-              <div class="main-right-vote__item-input">
-                <input type="radio" id="tree-item-1" name="tree-vote" value="tree-item-1" class="radio-input" checked>
-                <label for="tree-item-1" class="radio-label"></label>
+        <div class="d-xl-block d-none">
+          <div class="main-right-vote bg-white border-6 shadow1 mt-20 py-20 px-12">
+            <h3 class="main-right-vote-title text-orange-da fw-700 fs-14">Bình chọn</h3>
+            <p class="main-right-vote-des fs-12 pt-2 pb-3">Hãy bình chọn loại cây giống tốt nhất cho người mới bắt đầu làm nông nghiệp.</p>
+            <div class="main-right-vote-group">
+              <div class="main-right-vote__item">
+                <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Mi purus, convallis</h3>
+                <div class="main-right-vote__item-input">
+                  <input type="radio" id="tree-item-1" name="tree-vote" value="tree-item-1" class="radio-input" checked>
+                  <label for="tree-item-1" class="radio-label"></label>
+                </div>
               </div>
-            </div>
-            <div class="main-right-vote__item">
-              <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Viverra libero faucibus</h3>
-              <div class="main-right-vote__item-input">
-                <input type="radio" id="tree-item-2" name="tree-vote" value="tree-item-2" class="radio-input">
-                <label for="tree-item-2" class="radio-label"></label>
+              <div class="main-right-vote__item">
+                <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Viverra libero faucibus</h3>
+                <div class="main-right-vote__item-input">
+                  <input type="radio" id="tree-item-2" name="tree-vote" value="tree-item-2" class="radio-input">
+                  <label for="tree-item-2" class="radio-label"></label>
+                </div>
               </div>
-            </div>
-            <div class="main-right-vote__item">
-              <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Turpis tempus nisl, odio convallis</h3>
-              <div class="main-right-vote__item-input">
-                <input type="radio" id="tree-item-3" name="tree-vote" value="tree-item-3" class="radio-input">
-                <label for="tree-item-3" class="radio-label"></label>
+              <div class="main-right-vote__item">
+                <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Turpis tempus nisl, odio convallis</h3>
+                <div class="main-right-vote__item-input">
+                  <input type="radio" id="tree-item-3" name="tree-vote" value="tree-item-3" class="radio-input">
+                  <label for="tree-item-3" class="radio-label"></label>
+                </div>
               </div>
-            </div>
-            <div class="main-right-vote__item">
-              <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Adipiscing turpis lacus posuere quam</h3>
-              <div class="main-right-vote__item-input">
-                <input type="radio" id="tree-item-4" name="tree-vote" value="tree-item-4" class="radio-input">
-                <label for="tree-item-4" class="radio-label"></label>
+              <div class="main-right-vote__item">
+                <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Adipiscing turpis lacus posuere quam</h3>
+                <div class="main-right-vote__item-input">
+                  <input type="radio" id="tree-item-4" name="tree-vote" value="tree-item-4" class="radio-input">
+                  <label for="tree-item-4" class="radio-label"></label>
+                </div>
               </div>
-            </div>
-            <div class="main-right-vote__item">
-              <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Platea curabitur tristique pharetra</h3>
-              <div class="main-right-vote__item-input">
-                <input type="radio" id="tree-item-5" name="tree-vote" value="tree-item-5" class="radio-input">
-                <label for="tree-item-5" class="radio-label"></label>
+              <div class="main-right-vote__item">
+                <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Platea curabitur tristique pharetra</h3>
+                <div class="main-right-vote__item-input">
+                  <input type="radio" id="tree-item-5" name="tree-vote" value="tree-item-5" class="radio-input">
+                  <label for="tree-item-5" class="radio-label"></label>
+                </div>
               </div>
-            </div>
-            <div class="main-right-vote__item">
-              <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Interdum faucibus enim</h3>
-              <div class="main-right-vote__item-input">
-                <input type="radio" id="tree-item-6" name="tree-vote" value="tree-item-6" class="radio-input">
-                <label for="tree-item-6" class="radio-label"></label>
+              <div class="main-right-vote__item">
+                <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Interdum faucibus enim</h3>
+                <div class="main-right-vote__item-input">
+                  <input type="radio" id="tree-item-6" name="tree-vote" value="tree-item-6" class="radio-input">
+                  <label for="tree-item-6" class="radio-label"></label>
+                </div>
               </div>
-            </div>
-            <div class="main-right-vote__item">
-              <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Turpis vivamus odio</h3>
-              <div class="main-right-vote__item-input">
-                <input type="radio" id="tree-item-7" name="tree-vote" value="tree-item-7" class="radio-input">
-                <label for="tree-item-7" class="radio-label"></label>
+              <div class="main-right-vote__item">
+                <h3 class="main-right-vote__item-text fs-14 fw-700 text-orange-da">Turpis vivamus odio</h3>
+                <div class="main-right-vote__item-input">
+                  <input type="radio" id="tree-item-7" name="tree-vote" value="tree-item-7" class="radio-input">
+                  <label for="tree-item-7" class="radio-label"></label>
+                </div>
               </div>
-            </div>
-            <div class="main-right-vote-line"></div>
-            <div class="main-right-vote-result">
-              <div class="main-right-vote-result__title text-orange-da fw-700 fs-14">Xem kết quả</div>
-              <div class="main-right-vote-result__des d-flex align-items-center justify-content-between mt-12">
-                <p class="fs-14 ">Turpis vivamus odio</p>
-                <p class="fs-12 fw-700">50%</p>
+              <div class="main-right-vote-line"></div>
+              <div class="main-right-vote-result">
+                <div class="main-right-vote-result__title text-orange-da fw-700 fs-14">Xem kết quả</div>
+                <div class="main-right-vote-result__des d-flex align-items-center justify-content-between mt-12">
+                  <p class="fs-14 ">Turpis vivamus odio</p>
+                  <p class="fs-12 fw-700">50%</p>
+                </div>
               </div>
+  
             </div>
-
           </div>
         </div>
         <!-- end main right vote -->
@@ -847,13 +1393,36 @@
     <!-- footer -->
     <footer id="footer" class="bg-orange-da">
       <section class="footer w-1220">
-        <div class="footer-left"></div>
+        <div class="footer-left">
+          <div class="d-md-none d-block">
+            <div class="main-left-cate__block bg-orange-da">
+              <div class="main-left-cate__item">
+                <a href="#" class="text-white">
+                  <img src="./images/rules.svg" alt="" class="main-left-cate__item-img">
+                  <h3 class="main-left-cate__item-title fw-500">Điều khoản sử dụng</h3>
+                </a>
+              </div>
+              <div class="main-left-cate__item">
+                <a href="#" class="text-white">
+                  <img src="./images/security.svg" alt="" class="main-left-cate__item-img">
+                  <h3 class="main-left-cate__item-title fw-500">Chính sách bảo mật</h3>
+                </a>
+              </div>
+              <div class="main-left-cate__item">
+                <a href="#" class="text-white">
+                  <img src="./images/support.svg" alt="" class="main-left-cate__item-img">
+                  <h3 class="main-left-cate__item-title fw-500">Hỗ trợ</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="footer-center">
           <div class="footer-center-item">
             <p class="mb-3"><span class="fw-700">MẠNG XÃ HỘI LÂM NGHIỆP</span></p>
             <p class="mb-1"><span class="fw-700">CHỊU TRÁCH NHIỆM NỘI DUNG:</span></p>
-            <p>Ông Nguyễn Văn A - Tổng Biên Tập Tạp Chí Nguyễn Văn A</p>
-            <p class="mt-20">Giấy phép thiết lập Mạng xã hội số 111/GP-BTTT của Bộ TT&TT cấp ngày 11/11/2011</p>
+            <p class="footer-center-item-text1">Ông Nguyễn Văn A - Tổng Biên Tập Tạp Chí Nguyễn Văn A</p>
+            <p class="mt-20 footer-center-item-text1 footer-center-item-text2">Giấy phép thiết lập Mạng xã hội số 111/GP-BTTT của Bộ TT&TT cấp ngày 11/11/2011</p>
           </div>
           <div class="footer-center-item">
             <p class="mb-2"><span class="fw-700">Trụ sở chính:</span></p>

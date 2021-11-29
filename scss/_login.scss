@@ -1,0 +1,62 @@
+.login-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba($color: #000, $alpha: 0.5);
+    z-index: 101;
+    display: none;
+}
+.login-wrapper.open {
+    display: block;
+}
+.login-field {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 0.9375rem;
+    max-width: 450px;
+    width: 100%;
+}
+.login-input {
+    border: 1px solid #ececec;
+    height: 2.75rem;
+}
+.login-input::-webkit-input-placeholder { /* Edge */
+    color: #ececec;
+    font-size: 0.875rem;
+}
+  
+.login-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ececec;
+    font-size: 0.875rem;
+}
+  
+.login-input:placeholder {
+    color: #ececec;
+    font-size: 0.875rem;
+}
+.login-btn {
+    height: 2.75rem;
+}
+.login-fb {
+    background:#2B4A8D;
+}
+.login-twitter  {
+    background:#1DA1F2;
+}
+.login-gg {
+    background: #D93C29;
+}
+.login-zalo {
+    background: #0067FF;
+}
+.register-now,
+.login-close {
+    cursor: pointer;
+}
+.register-now:hover {
+    color: #1DA1F2;
+}

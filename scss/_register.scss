@@ -1,0 +1,29 @@
+.register-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba($color: #000, $alpha: 0.5);
+    z-index: 101;
+    display: none;
+}
+.register-wrapper.open {
+    display: block;
+}
+.register-field {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 0.9375rem;
+    max-width: 450px;
+    width: 100%;
+}
+.login-now,
+.register-close {
+    cursor: pointer;
+}
+.login-now:hover {
+    color: #1DA1F2;
+}
