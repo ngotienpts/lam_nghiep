@@ -57,6 +57,9 @@
   .footer-center::before {
     content: none;
   }
+  .cate-main-center-articles-second {
+    grid-template-columns:1fr;
+  }
 
 
 
@@ -171,7 +174,50 @@
     max-height: 520px;
     overflow-y: scroll;
   }
+  .categiry-hot-mb-list {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: normal;
+    overflow-x: auto;
+    padding: 0.625rem 0.5rem;
+  }
+  .categiry-hot-mb__item {
+    flex-shrink: 0;
+    padding: 0 0.625rem;
+    border-left: 1px solid #f9f9f963;
+  }
+  .categiry-hot-mb__item:first-child {
+    border-left: none;
+  }
+  .categiry-hot-mb-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    background-color: transparent;
+  }
+  .categiry-hot-mb-list::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  .categiry-hot-mb-list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+  }
 
 
 
+}
+
+// danh cho man hinh duoi 400px 
+@media (max-width: 25em) {
+  .login-input,
+  .login-btn {
+    height: 2rem;
+  }
+}
+@media (max-width: 20em) {
+  .login-btn {
+    margin-top: 0.625rem!important;
+  }
+  .menu-mb-scroll {
+    max-height: 424px;
+  }
 }

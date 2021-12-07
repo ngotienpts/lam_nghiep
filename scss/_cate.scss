@@ -1,0 +1,25 @@
+.catogorie-item__img {
+    width: 1rem;
+    height: auto;
+}
+.catogories {
+    flex-wrap: nowrap;
+    // white-space: nowrap;
+    overflow:auto;
+}
+.catogorie-item {
+    flex-shrink: 0;
+}
+.catogories::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.catogories::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+.catogories::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    background-color: transparent;
+}

@@ -755,6 +755,7 @@ img {
   grid-template-columns: 1.7fr 5fr 3fr;
   grid-column-gap: 1.25rem;
   padding-top: 1.25rem;
+  position: relative;
 }
 
 .main-left-cate__block {
@@ -1113,12 +1114,40 @@ img {
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 101;
+  visibility: collapse;
+}
+
+.menu-mb-wrapper.open {
+  visibility: visible;
+  transition: all 0.02s linear;
+  -webkit-transition: all 0.02s linear;
+  -moz-transition: all 0.02s linear;
+  -ms-transition: all 0.02s linear;
+  -o-transition: all 0.02s linear;
 }
 
 .menu-mb-field {
   max-width: 20rem;
   width: 100%;
   padding: 0.9375rem;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+}
+
+.menu-mb-field.open {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transition: transform 0.2s linear;
+  -webkit-transition: transform 0.2s linear;
+  -moz-transition: transform 0.2s linear;
+  -ms-transition: transform 0.2s linear;
+  -o-transition: transform 0.2s linear;
 }
 
 .close-menu-mb {
@@ -1138,6 +1167,34 @@ img {
   height: 1.25rem;
   width: auto;
   margin-right: 0.625rem;
+}
+
+.back-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #DA8E33;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: collapse;
+}
+
+.sidebar {
+  will-change: min-height;
+}
+
+.sidebar__inner {
+  transform: translate(0, 0);
+  transform: translate3d(0, 0, 0);
+  will-change: position, transform;
 }
 
 .login-wrapper {
@@ -1214,6 +1271,35 @@ img {
 
 .register-now:hover {
   color: #1DA1F2;
+}
+
+.catogorie-item__img {
+  width: 1rem;
+  height: auto;
+}
+
+.catogories {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.catogorie-item {
+  flex-shrink: 0;
+}
+
+.catogories::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+
+.catogories::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.catogories::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
 }
 
 .register-wrapper {
