@@ -621,25 +621,138 @@
             </div>
             <!-- end content text -->
             <!-- rating -->
-            <div class="detail-rating d-flex align-items-center justify-content-between">
+            <div class="detail-rating-field d-flex align-items-center justify-content-between">
                 <p class="fs-14 text-black fw-700">Bạn nghĩ sao về bài viết này?</p>
-                <div>
-                    <form>
-                        <span class="star-cb-group">
-                          <input type="radio" id="rating-5" name="rating" value="5" /><label for="rating-5">5</label>
-                          <input type="radio" id="rating-4" name="rating" value="4" checked="checked" /><label for="rating-4">4</label>
-                          <input type="radio" id="rating-3" name="rating" value="3" /><label for="rating-3">3</label>
-                          <input type="radio" id="rating-2" name="rating" value="2" /><label for="rating-2">2</label>
-                          <input type="radio" id="rating-1" name="rating" value="1" /><label for="rating-1">1</label>
-                          <input type="radio" id="rating-0" name="rating" value="0" class="star-cb-clear" /><label for="rating-0">0</label>
-                        </span>
-                    </form>
+                <div class="detail-rating">
+                  <form class="rating">
+                    <label>
+                      <input type="radio" name="stars" value="1" />
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="2" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="3" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>   
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="4" checked/>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="5" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                  </form>
                 </div>
             </div>
             <!-- end rating -->
+            <!-- tag detail -->
+            <div class="detail-tag d-flex align-items-start">
+              <span class="fw-700 fs-14 text-blue-00">Tags:</span>
+              <ul class="d-flex align-items-center detail-tag__list">
+                <li class="fs-14 ml-2 mb-2 detail-tag__item">
+                  <a href="#" class="text-blue-00">#Vin Group</a>
+                </li>
+                <li class="fs-14 ml-2 mb-2 detail-tag__item">
+                  <a href="#" class="text-blue-00">#Vin Group</a>
+                </li>
+                <li class="fs-14 ml-2 mb-2 detail-tag__item">
+                  <a href="#" class="text-blue-00">#Vin Group</a>
+                </li>
+                <li class="fs-14 ml-2 mb-2 detail-tag__item">
+                  <a href="#" class="text-blue-00">#Vin Group</a>
+                </li>
+                <li class="fs-14 ml-2 mb-2 detail-tag__item">
+                  <a href="#" class="text-blue-00">#Vin Group</a>
+                </li>
+                <li class="fs-14 ml-2 mb-2 detail-tag__item">
+                  <a href="#" class="text-blue-00">#Vin Group</a>
+                </li>
+                <li class="fs-14 ml-2 mb-2 detail-tag__item">
+                  <a href="#" class="text-blue-00">#Vin Group</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end tag detail -->
           </div>
           <!-- end articles top -->
-
+          <!-- cmt -->
+          <div class="detail-cmt main-center-block bg-white border-6 shadow1 mt-20">
+            <!-- input cmt -->
+            <div class="input-cmt">
+							<div class="cmt-field d-flex">
+								<div class="cmt-avatar"><img src="./images/man1.jpg" alt=""></div>
+								<div class="cmt-form">
+									<form action="">
+										<div class="form-group-t">
+											<textarea id="comment_text" name="comment_text" class="textarea-cmt"	placeholder="Bạn muốn chia sẻ gì?"	oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
+										</div>
+									</form>
+								</div>
+							</div>
+              <div class="send-cmt post_comment click_cmt">
+                <img src="./images/send.svg" class="" width="20" height="20" alt="Bình luận">
+              </div>
+						</div>
+            <!-- end input cmt -->
+            <!-- content text -->
+            <div class="comment mt-2 d-flex">
+              <div class="cmt-avatar"><img src="./images/man1.jpg" alt=""></div>
+              <div class="cmt-content border-cmt-content ml-2 p-2">
+                <div class="cmt-content__header d-flex align-items-center justify-content-between">
+                  <div class="d-lg-flex d-block align-items-center">
+                    <div class="cmt-content__title fs-12 font-arial text-black fw-700">
+                      Tuấn anh nguyễn</div>
+                    <span class="fs-12">&nbsp;-&nbsp;10 phút trước</span>
+                  </div>
+                  <div class="cmt-content__more position-relative">
+                    <span class="cmt-content__span">...</span>
+                    <ul class="cmt-content__list">
+                      <li class="cmt-content__items fs-14 text-gray-77">
+                        Chỉnh sửa</li>
+                      <li class="cmt-content__items fs-14 text-gray-77">
+                        Xoá</li>
+                      <li class="cmt-content__items fs-14 text-gray-77">
+                        Báo cáo</li>
+                    </ul>
+                  </div>
+                </div>
+                <p class="cmt-content__text font-arial fs-12 text-gray-44 mt-2">
+                  Rất nhiều công trình trọng điểm do nhà
+                  thầu Trung Quốc thi công gặp rất nhiều
+                  trục trặc về tiến độ, đội vốn .. nhưng
+                  Trung Quốc vẫn luôn
+                  thắng
+                  thầu ở những dự án quan trọng tại Việt
+                  nam.
+                </p>
+                <div class="d-flex align-items-center justify-content-end mt-2">
+                  <div class="main-center-block__footer-interact">
+                    <div class="main-center-block__footer-like">
+                      <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
+                      <span class="main-center-block__footer-count">12</span>
+                    </div>
+                    <ion-icon name="arrow-undo" class=" main-center-block__footer-icon ml-2"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end content text -->
+          </div>
+          <!-- end cmt -->
         </div>
         <!-- end main block -->
 
@@ -928,7 +1041,7 @@
           <!-- end most view tablet-->
           <!-- main right theme -->
           <div class="d-xl-block d-none">
-            <div class="main-right-theme mt-20">
+            <div class="main-right-theme mt-20 detail-main-right-theme bg-white shadow1 border-6">
               <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Hỏi Đáp</a>
               <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Nông Nghiệp</a>
               <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Bất Động Sản</a>
