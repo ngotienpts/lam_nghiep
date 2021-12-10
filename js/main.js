@@ -27,6 +27,18 @@ document.addEventListener("DOMContentLoaded", function () {
     // back to top
     var backTop = document.querySelector('.back-top');
 
+    // show more cmt
+    var moreCmt = document.querySelectorAll('.cmt-content__more');
+
+    // show notification
+    var openNotifi = document.querySelector('.header-right-notifi__icon');
+    var notifi = document.querySelector('.header-right-notifi__content');
+    var closeNotifi = document.querySelector('.header-right-notifi__close');
+
+
+    // show user
+    var openUser = document.querySelector('.header-right-user__img');
+    var user = document.querySelector('.header-right-user__content');
 
     const app = {
       // get height cua header day main theo chieu cao cua header
@@ -126,9 +138,74 @@ document.addEventListener("DOMContentLoaded", function () {
             }
           }
         }
+
+        // show more cmt
+        if(moreCmt){
+          moreCmt.forEach(function(a){
+            a.firstElementChild.onclick = function(){
+              a.lastElementChild.classList.toggle('open')
+            }
+          })
+        }
+
+        // show notify 
+        if(openNotifi){
+          openNotifi.onclick = function(){
+            if(notifi){
+              if(!notifi.parentElement.classList.contains('active')){
+                notifi.parentElement.classList.add('active')
+              }
+              if(notifi.classList.contains('open')){
+                notifi.classList.remove('open')
+              }else {
+                notifi.classList.add('open');
+                if(user){
+                  user.classList.remove('open')
+                }
+              }
+            }
+          };
+          if(closeNotifi){
+            closeNotifi.onclick = function(){
+              notifi.classList.remove('open');
+            }
+          }
+        }
+
+        // show user 
+        if(openUser){
+          openUser.onclick = function(){
+            if(user){
+              user.classList.toggle('open');
+              if(notifi){
+                notifi.classList.remove('open')
+              }
+            }
+          }
+        }
+
         // hide cac element khi click ra ngoai
         document.addEventListener('click',function(e){
-          
+          if(moreCmt){
+            moreCmt.forEach(function(b){
+              if(!b.firstElementChild.contains(e.target) && !e.target.matches('.cmt-content__span')){
+                b.lastElementChild.classList.remove('open')
+              }
+            })
+          }
+          // hide notifi
+          if(notifi){
+            e.stopPropagation();
+            if(!notifi.contains(e.target) && !e.target.matches('.header-right-notifi__icon')){
+              notifi.classList.remove('open')
+            }
+          }
+          // hide user
+          if(user){
+            if(!user.contains(e.target) && !e.target.matches('.header-right-user__img')){
+              user.classList.remove('open')
+            }
+          }
         })
       },
       // back top

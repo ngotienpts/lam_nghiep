@@ -303,11 +303,84 @@
           <div class="header-right-item header-right-icon header-right-fb">
             <img src="./images/fb.svg" alt="">
           </div>
+          <div class="header-right-item header-right-icon header-right-notifi">
+            <img src="./images/bx_bxs-bell.svg" alt="" class="header-right-notifi__icon">
+            <div class="header-right-notifi__content bg-white border-6 shadow1">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h3 class="header-right-notifi__title fs-18 fw-700 text-black">Thông báo</h3>
+                    <div class="d-flex align-items-center">
+                        <ion-icon name="ellipsis-horizontal-outline" class="fs-20 text-orange-da header-right-notifi__more"></ion-icon>
+                        <ion-icon name="close-outline" class="fs-20 text-orange-da header-right-notifi__close ml-4"></ion-icon>
+                    </div>
+                </div>
+               
+                <div class="d-flex align-items-center justify-content-between mt-10 pb-12">
+                    <p class="fw-700 text-orange-da fs-14">Mới</p>
+                    <p class="text-orange-da fs-12">Xem tất cả</p>
+                </div>
+                <div class="cmt-line"></div>
+                <ul class="header-right-notifi__list pt-12">
+                    <li class="header-right-notifi__item">
+                        <a href="#" class="d-flex align-items-start">
+                            <img src="./images/man1.jpg" alt="" class="header-right-notifi__item-img">
+                            <p class="text-black fs-12"><span class="fw-700">Nguyễn Văn B</span> đã bình luận bài viết của bạn</p>
+                        </a>
+                    </li>
+                    <li class="header-right-notifi__item">
+                        <a href="#" class="d-flex align-items-start">
+                            <img src="./images/man1.jpg" alt="" class="header-right-notifi__item-img">
+                            <p class="text-black fs-12"><span class="fw-700">Nguyễn Văn B</span> đã thích bài viết của bạn</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center justify-content-between mt-4 pb-12">
+                    <p class="fw-700 text-orange-da fs-14">Đã xem</p>
+                </div>
+                <div class="cmt-line"></div>
+                <ul class="header-right-notifi__list pt-12">
+                    <li class="header-right-notifi__item">
+                        <a href="#" class="d-flex align-items-start">
+                            <img src="./images/man1.jpg" alt="" class="header-right-notifi__item-img">
+                            <p class="text-black fs-12"><span class="fw-700">Nguyễn Văn B</span> đã bình luận bài viết của bạn</p>
+                        </a>
+                    </li>
+                    <li class="header-right-notifi__item">
+                        <a href="#" class="d-flex align-items-start">
+                            <img src="./images/man1.jpg" alt="" class="header-right-notifi__item-img">
+                            <p class="text-black fs-12"><span class="fw-700">Nguyễn Văn B</span> đã thích bài viết của bạn</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="header-right-item header-right-icon header-right-user">
+            <img src="./images/man1.jpg" alt="" class="header-right-user__img">
+            <div class="header-right-user__content bg-white border-6 shadow1">
+                <ul class="header-right-user__content--list">
+                    <li class="header-right-user__content--item">
+                        <a href="#" class="text-orange-da d-flex align-items-center">
+                            <ion-icon name="person-circle-outline" class="fs-20 mr-2"></ion-icon>
+                            <p class="fs-14 fw-500">Trang cá nhân</p>
+                        </a>
+                    </li>
+                    <li class="header-right-user__content--item">
+                        <a href="#" class="text-orange-da d-flex align-items-center">
+                            <ion-icon name="settings-outline" class="fs-20 mr-2"></ion-icon>
+                            <p class="fs-14 fw-500">Cài đặt</p>
+                        </a>
+                    </li>
+                    <li class="header-right-user__content--item">
+                        <a href="#" class="text-orange-da d-flex align-items-center">
+                            <ion-icon name="log-out-outline" class="fs-20 mr-2 header-right-user__content--logout"></ion-icon>
+                            <p class="fs-14 fw-500">Đăng xuất</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          </div>
           <div class="header-right-item header-right-icon header-right-bar">
             <img src="./images/bar.svg" alt="">
           </div>
-          <button class="header-right-item header-right-item__register btn bg-orange-da border-999 fw-700 fs-14">Đăng ký</button>
-          <button class="header-right-item header-right-item__login btn border-999 text-orange-da border-orange-da fw-700 fs-14">Đăng nhập</button>
         </div>
         <!-- end header-right -->
       </section>
@@ -408,6 +481,48 @@
             <!-- end block 2 -->
           </div>
           <!-- end main-left-cate -->
+          <!-- trang ca nhan -->
+          <div class="personal-profile bg-white border-6 shadow1 mt-20">
+            <h3 class="main-left__title fw-700 text-black">Trang cá nhân của:</h3>
+            <div class="d-flex align-items-center mx-10 main-left__title--line pb-10 mb-10">
+                <img src="./images/man1.jpg" alt="" class="personal-profile__img">
+                <div class="ml-3 personal-profile__text">
+                    <p class="fw-700 text-orange-da fs-12">Nguyễn Văn A</p>
+                    <p class="text-black fs-12 mt-1">Thành viên tích cực</p>
+                </div>
+            </div>
+            <div class="personal-profile-statistical mx-10 main-left__title--line pb-10 mb-10">
+                <div class="text-center">
+                    <p class="fs-18 fw-700 text-orange-da">109</p>
+                    <p class="text-black fs-12 mt-1">Bài viết</p>
+                </div>
+                <div class="text-center">
+                    <p class="fs-18 fw-700 text-orange-da">109</p>
+                    <p class="text-black fs-12 mt-1">Bình luận</p>
+                </div>
+                <div class="text-center">
+                    <p class="fs-18 fw-700 text-orange-da">109</p>
+                    <p class="text-black fs-12 mt-1">Lượt thích</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between fs-12 text-black mx-10 mb-10">
+                <span>Truy cập lần cuối:</span>
+                <span>11/11/2000</span>
+            </div>
+            <div class="d-flex align-items-center justify-content-between fs-12 text-black mx-10 mb-10">
+                <span>Thành viên kể từ</span>
+                <span>12/12/1999</span>
+            </div>
+            <div class="d-flex align-items-center justify-content-between fs-12 text-black mx-10 mb-10">
+                <span>Huy hiệu đạt được:</span>
+            </div>
+            <div class="personal-armorial mb-10 mx-10 d-flex align-items-center justify-content-center">
+                <img src="./images/ant-design_like-filled.png" alt="" class="personal-armorial__img">
+                <img src="./images/bx_bxs-pen.png" alt="" class="personal-armorial__img">
+                <img src="./images/bx_bxs-crown.png" alt="" class="personal-armorial__img">
+            </div>
+          </div>
+          <!-- end trang ca nhan -->
           <!-- main-left-member hot -->
           <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
             <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Thành viên nổi bật</h3>
@@ -556,41 +671,165 @@
             </div>
           </div>
           <!-- end new member-->
-          <!-- most view -->
-          <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
-            <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Xem nhiều nhất</h3>
-            <div class="main-left__content">
-              <div class="main-left__item">
-                <a href="#" class="text-blue-00 fs-12">
-                  • Iaculis vulputate viverra enim, amet. Fermentum nunc, eget facilisis odio dictumst diam.
-                </a>
-              </div>
-              <div class="main-left__item">
-                <a href="#" class="text-blue-00 fs-12">
-                  • Iaculis vulputate viverra enim, amet. Fermentum nunc, eget facilisis odio dictumst diam.
-                </a>
-              </div>
-              <div class="main-left__item">
-                <a href="#" class="text-blue-00 fs-12">
-                  • Iaculis vulputate viverra enim, amet. Fermentum nunc, eget facilisis odio dictumst diam.
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- end most view -->
         </div>
       </section>
       <!-- end main-left -->
       <!-- main-center -->
       <section  class="main-center-wrapper">
+        <!-- trang ca nhan mobile -->
+        <div class="d-sm-none d-block">
+            <div class="personal-profile bg-white border-6 shadow1 mb-20">
+                <h3 class="main-left__title fw-700 text-black">Trang cá nhân của:</h3>
+                <div class="d-flex align-items-center mx-10 main-left__title--line pb-10 mb-10">
+                    <img src="./images/man1.jpg" alt="" class="personal-profile__img">
+                    <div class="ml-3 personal-profile__text">
+                        <p class="fw-700 text-orange-da fs-12">Nguyễn Văn A</p>
+                        <p class="text-black fs-12 mt-1">Thành viên tích cực</p>
+                    </div>
+                </div>
+                <div class="personal-profile-statistical mx-10 main-left__title--line pb-10 mb-10">
+                    <div class="text-center">
+                        <p class="fs-18 fw-700 text-orange-da">109</p>
+                        <p class="text-black fs-12 mt-1">Bài viết</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="fs-18 fw-700 text-orange-da">109</p>
+                        <p class="text-black fs-12 mt-1">Bình luận</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="fs-18 fw-700 text-orange-da">109</p>
+                        <p class="text-black fs-12 mt-1">Lượt thích</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between fs-12 text-black mx-10 mb-10">
+                    <span>Truy cập lần cuối:</span>
+                    <span>11/11/2000</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between fs-12 text-black mx-10 mb-10">
+                    <span>Thành viên kể từ</span>
+                    <span>12/12/1999</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between fs-12 text-black mx-10 mb-10">
+                    <span>Huy hiệu đạt được:</span>
+                </div>
+                <div class="personal-armorial mb-10 mx-10 d-flex align-items-center justify-content-center">
+                    <img src="./images/ant-design_like-filled.png" alt="" class="personal-armorial__img">
+                    <img src="./images/bx_bxs-pen.png" alt="" class="personal-armorial__img">
+                    <img src="./images/bx_bxs-crown.png" alt="" class="personal-armorial__img">
+                </div>
+              </div>
+        </div>
+        <!-- end trang ca nhan mobile -->
+        <!-- catogories -->
+        <div class="person-top-center d-flex align-items-center bg-white border-6 shadow1 p-12">
+            <img src="./images/man1.jpg" alt="" class="person-top-center__img">
+            <a href="#" class="person-top-center__text fs-14">Hãy chia sẻ gì đó?</a>
+        </div>
+        <!-- catogories -->
         <!-- main block -->
         <div class="main-center-field">
           <!-- articles top -->
-          <div class="main-center-block bg-white border-6 shadow1">
-            <h1 class="fw-700 fs-24 text-gray-1a detail-content__title">Vingroup (VIC) lãi trước thuế 3.315 tỷ đồng trong quý III, chuẩn bị ra mắt 2 mẫu xe điện VinFast</h1>
-            <p class="fw-700 fs-18 text-gray-1a detail-content__sapo">Luỹ kế 9 tháng, Vingroup ghi nhân doanh thu thuần đạt 90.848 tỷ đồng, tăng 22% nhưng lợi nhuận sau thuế thuộc về cổ đông công ty mẹ lại giảm 21% xuống mức 3.193 tỷ đồng.</p>
-            <!-- avatar-interact  -->
+          <div class="main-center-block bg-white border-6 shadow1 mt-20">
+            <!-- main block header -->
             <div class="main-center-block__header">
+              <div class="main-center-block__header-info">
+                <a href="#">
+                  <img src="./images/man1.jpg" alt="" class="main-center-block__header-avar">
+                  <div class="text-black">
+                    <h3 class="main-center-block__header-name fw-700 fs-12">Nguyễn Văn A</h3>
+                    <p class="main-center-block__header-public fs-12">10 phút trước</p>
+                  </div>
+                </a>
+              </div>
+              <div class="main-center-block__header-btn bg-orange-da border-6">
+                <img src="./images/ri_chat-follow-up-fill.svg" alt="">
+                <span class="main-center-block__header-follow fw-700 text-white">Theo dõi</span>
+              </div>
+            </div>
+            <!-- end main block header -->
+            <!-- main block title -->
+            <div class="main-center-block__title fw-700 fs-14 pt-12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie egestas et nunc viverra quis tempus neque. Sed amet, consectetur arcu ac feugiat vestibulum mattis. Pellentesque nulla feugiat tincidunt in gravida vitae. In sodales sollicitudin duis et nisl, viverra diam urna.
+            </div>
+            <div class="main-center-block__des fs-14 pt-12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas enim pharetra, tristique nam nisl velit duis vel nam. Magna sit vulputate faucibus ultrices nascetur nunc, arcu auctor. Auctor quis aenean volutpat semper. Semper volutpat sed diam morbi neque, vitae, mattis aliquet. Fringilla nulla viverra a velit, convallis pulvinar eget dolor laoreet. Cras ac eget nunc sit purus. Aliquam, semper integer risus tincidunt. Lacinia sagittis, viverra in morbi nulla ut vitae laoreet. Dui lacus ornare quis mi vehicula suspendisse pulvinar luctus congue. Quam laoreet dictum pulvinar sit. Felis pulvinar non proin ut cursus urna.
+            </div>
+            <!-- end main block title -->
+            <!-- main center block fotter -->
+            <div class="main-center-block__footer mt-12">
+              <span class="main-center-block__footer-detail fw-700">
+                <a href="#">Chi tiết</a>
+              </span>
+              <div class="main-center-block__footer-interact">
+                <div class="main-center-block__footer-like">
+                  <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
+                  <span class="main-center-block__footer-count">12</span>
+                </div>
+                <div class="main-center-block__footer-cmt">
+                  <i class="fas fa-comment-alt main-center-block__footer-icon"></i>
+                  <span class="main-center-block__footer-count">12</span>
+                </div>
+              </div>
+            </div>
+            <!-- end main center block fotter -->
+          </div>
+          <!-- end articles top -->
+          <!-- articles top -->
+          <div class="main-center-block bg-white border-6 shadow1 mt-20">
+            <!-- main block header -->
+            <div class="main-center-block__header">
+              <div class="main-center-block__header-info">
+                <a href="#">
+                  <img src="./images/man1.jpg" alt="" class="main-center-block__header-avar">
+                  <div class="text-black">
+                    <h3 class="main-center-block__header-name fw-700 fs-12">Nguyễn Văn A</h3>
+                    <p class="main-center-block__header-public fs-12">10 phút trước</p>
+                  </div>
+                </a>
+              </div>
+              <div class="main-center-block__header-btn bg-orange-da border-6">
+                <img src="./images/ri_chat-follow-up-fill.svg" alt="">
+                <span class="main-center-block__header-follow fw-700 text-white">Theo dõi</span>
+              </div>
+            </div>
+            <!-- end main block header -->
+            <!-- main block title -->
+            <div class="main-center-block__title fw-700 fs-14 pt-12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie egestas et nunc viverra quis tempus neque. Sed amet, consectetur arcu ac feugiat vestibulum mattis. Pellentesque nulla feugiat tincidunt in gravida vitae. In sodales sollicitudin duis et nisl, viverra diam urna.
+            </div>
+            <div class="main-center-block__des fs-14 pt-12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas enim pharetra, tristique nam nisl velit duis vel nam. Magna sit vulputate faucibus ultrices nascetur nunc, arcu auctor. Auctor quis aenean volutpat semper. Semper volutpat sed diam morbi neque, vitae, mattis aliquet. Fringilla nulla viverra a velit, convallis pulvinar eget dolor laoreet. Cras ac eget nunc sit purus. Aliquam, semper integer risus tincidunt. Lacinia sagittis, viverra in morbi nulla ut vitae laoreet. Dui lacus ornare quis mi vehicula suspendisse pulvinar luctus congue. Quam laoreet dictum pulvinar sit. Felis pulvinar non proin ut cursus urna.
+            </div>
+            <!-- end main block title -->
+            <!-- main block img -->
+            <figure class="expNoEdit">
+              <img src="./images/1.jpg" alt="">
+            </figure>
+            <!-- end main block img -->
+            <!-- main center block fotter -->
+            <div class="main-center-block__footer mt-12">
+              <span class="main-center-block__footer-detail fw-700">
+                <a href="#">Chi tiết</a>
+              </span>
+              <div class="main-center-block__footer-interact">
+                <div class="main-center-block__footer-like">
+                  <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
+                  <span class="main-center-block__footer-count">12</span>
+                </div>
+                <div class="main-center-block__footer-cmt">
+                  <i class="fas fa-comment-alt main-center-block__footer-icon"></i>
+                  <span class="main-center-block__footer-count">12</span>
+                </div>
+              </div>
+            </div>
+            <!-- end main center block fotter -->
+          </div>
+          <!-- end articles top -->
+          <!-- articles second -->
+          <div class="main-center-articles-second cate-main-center-articles-second">
+            <div class="main-center-block bg-white border-6 shadow1 mt-20">
+              <!-- main block header -->
+              <div class="main-center-block__header">
                 <div class="main-center-block__header-info">
                   <a href="#">
                     <img src="./images/man1.jpg" alt="" class="main-center-block__header-avar">
@@ -600,326 +839,143 @@
                     </div>
                   </a>
                 </div>
-                <div class="detail-interact d-flex align-items-center">
-                    <div class="bg-blue-00 p-1 text-white detail-interact__count-likes fs-10 fw-700">+100</div>
-                    <div class="p-1 text-blue-00 detail-interact__like fs-10 fw-700 ml-1">
-                        <i class="far fa-thumbs-up fs-24"></i>
-                    </div>
-                    <ion-icon name="chatbox" class="fs-24 text-blue-00 detail-interact__cmt ml-1"></ion-icon>
-                    <ion-icon name="arrow-undo" class="fs-24 text-blue-00 detail-interact__share ml-1"></ion-icon>
+                <div class="main-center-block__header-btn bg-orange-da border-6">
+                  <img src="./images/ri_chat-follow-up-fill.svg" alt="">
+                  <span class="main-center-block__header-follow fw-700 text-white d-block">Theo dõi</span>
                 </div>
               </div>
-            <!-- end avatar-interact -->
-            <!-- content text -->
-            <div class="detail-content-text">
-                <p><strong>Tập đoàn Vingroup</strong> – Công ty cổ phần (mã CK: VIC) đã công bố báo cáo tài chính quý III/2021 với tổng doanh thu thuần hợp nhất đạt 30.112 tỷ đồng, giảm 16,2% so với cùng kỳ năm trước. Lợi nhuận trước thuế  đạt 3.315 tỷ đồng, giảm 8,1% so với cùng kỳ qua đó lỗ ròng 351 tỷ đồng trong khi quý III năm ngoái vẫn lãi 1.540 tỷ đồng.</p>
-                <figure class="expNoEdit">
-                    <img src="./images/4.jpg" alt="">
-                </figure>
-                <p>Tiếp tục chung tay cùng cộng đồng trong hành trình chống dịch, Vingroup đã nhập về 1,7 triệu lọ Remdesivir và hơn 4 triệu viên Molnupiravir để điều trị Covid-19 và tiến hành chuyển giao cho Bộ Y Tế. Đồng thời, hệ thống Vinmec tổ chức hoạt động xét nghiệm cộng đồng cũng như tiếp nhận và triển khai xét nghiệm theo đề nghị của địa phương.</p>
-                <blockquote style="display: block; width: 100%; background: #fff; border: 1px solid #da8e33; text-align: justify; padding: 8px 2%; margin: 0px auto; font-size: 14px; line-height: 24px;">  <p>Ngày 7/12, tỉnh Vĩnh Long ghi nhận 529 trường hợp nghi mắc Covid-19. Cụ thể có 283 trường hợp qua xét nghiệm sàng lọc cộng đồng; 71 trường hợp qua khám sàng lọc tại cơ sở y tế; 175 trường hợp là F1 được cách ly tại nhà trước đó.</p>  <p>Tính đến nay, tỉnh có 14.813 ca nhiễm đã công bố. Số ca điều trị khỏi trong ngày có 789 trường hợp, cộng dồn 9.881 trường hợp. Số ca tử vong trong ngày 7 trường hợp, cộng dồn 124 trường hợp.</p>  <p>Về công tác tiêm ngừa, hiện nay toàn tỉnh có&nbsp;99,3% dân số trên 18 tuổi tiêm mũi 1 và&nbsp;92,6% tiêm mũi 2. Đồng thời có gần 100%&nbsp;trẻ em từ 12-17 tuổi đã tiêm mũi 1 và 92,8% trẻ em tiêm mũi 2.</p>  </blockquote>
+              <!-- end main block header -->
+              <!-- main block title -->
+              <div class="main-center-block__title fw-700 fs-14 pt-12 fix-text5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie egestas et nunc viverra quis tempus neque. Sed amet, consectetur arcu ac feugiat vestibulum mattis. Pellentesque nulla feugiat tincidunt in gravida vitae. In sodales sollicitudin duis et nisl, viverra diam urna.
+              </div>
+              <div class="main-center-block__des fs-14 pt-12 fix-text7">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas enim pharetra, tristique nam nisl velit duis vel nam. Magna sit vulputate faucibus ultrices nascetur nunc, arcu auctor. Auctor quis aenean volutpat semper. Semper volutpat sed diam morbi neque, vitae, mattis aliquet. Fringilla nulla viverra a velit, convallis pulvinar eget dolor laoreet. Cras ac eget nunc sit purus. Aliquam, semper integer risus tincidunt. Lacinia sagittis, viverra in morbi nulla ut vitae laoreet. Dui lacus ornare quis mi vehicula suspendisse pulvinar luctus congue. Quam laoreet dictum pulvinar sit. Felis pulvinar non proin ut cursus urna.
+              </div>
+              <!-- end main block title -->
+              <!-- main center block fotter -->
+              <div class="main-center-block__footer mt-12">
+                <span class="main-center-block__footer-detail fw-700">
+                  <a href="#">Chi tiết</a>
+                </span>
+                <div class="main-center-block__footer-interact">
+                  <div class="main-center-block__footer-like">
+                    <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
+                    <span class="main-center-block__footer-count">12</span>
+                  </div>
+                  <div class="main-center-block__footer-cmt">
+                    <i class="fas fa-comment-alt main-center-block__footer-icon"></i>
+                    <span class="main-center-block__footer-count">12</span>
+                  </div>
+                </div>
+              </div>
+              <!-- end main center block fotter -->
             </div>
-            <!-- end content text -->
-            <!-- rating -->
-            <div class="detail-rating-field d-flex align-items-center justify-content-between">
-                <p class="fs-14 text-black fw-700">Bạn nghĩ sao về bài viết này?</p>
-                <div class="detail-rating">
-                  <form class="rating">
-                    <label>
-                      <input type="radio" name="stars" value="1" />
-                      <span class="icon">★</span>
-                    </label>
-                    <label>
-                      <input type="radio" name="stars" value="2" />
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>
-                    </label>
-                    <label>
-                      <input type="radio" name="stars" value="3" />
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>   
-                    </label>
-                    <label>
-                      <input type="radio" name="stars" value="4" checked/>
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>
-                    </label>
-                    <label>
-                      <input type="radio" name="stars" value="5" />
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>
-                      <span class="icon">★</span>
-                    </label>
-                  </form>
+            <div class="main-center-block bg-white border-6 shadow1 mt-20">
+              <!-- main block header -->
+              <div class="main-center-block__header">
+                <div class="main-center-block__header-info">
+                  <a href="#">
+                    <img src="./images/man1.jpg" alt="" class="main-center-block__header-avar">
+                    <div class="text-black">
+                      <h3 class="main-center-block__header-name fw-700 fs-12">Nguyễn Văn A</h3>
+                      <p class="main-center-block__header-public fs-12">10 phút trước</p>
+                    </div>
+                  </a>
                 </div>
-            </div>
-            <!-- end rating -->
-            <!-- tag detail -->
-            <div class="detail-tag d-flex align-items-start">
-              <span class="fw-700 fs-14 text-blue-00">Tags:</span>
-              <ul class="d-flex align-items-center detail-tag__list">
-                <li class="fs-14 ml-2 mb-2 detail-tag__item">
-                  <a href="#" class="text-blue-00">#Vin Group</a>
-                </li>
-                <li class="fs-14 ml-2 mb-2 detail-tag__item">
-                  <a href="#" class="text-blue-00">#Vin Group</a>
-                </li>
-                <li class="fs-14 ml-2 mb-2 detail-tag__item">
-                  <a href="#" class="text-blue-00">#Vin Group</a>
-                </li>
-                <li class="fs-14 ml-2 mb-2 detail-tag__item">
-                  <a href="#" class="text-blue-00">#Vin Group</a>
-                </li>
-                <li class="fs-14 ml-2 mb-2 detail-tag__item">
-                  <a href="#" class="text-blue-00">#Vin Group</a>
-                </li>
-                <li class="fs-14 ml-2 mb-2 detail-tag__item">
-                  <a href="#" class="text-blue-00">#Vin Group</a>
-                </li>
-                <li class="fs-14 ml-2 mb-2 detail-tag__item">
-                  <a href="#" class="text-blue-00">#Vin Group</a>
-                </li>
-              </ul>
-            </div>
-            <!-- end tag detail -->
-          </div>
-          <!-- end articles top -->
-          <!-- cmt -->
-          <div class="detail-cmt main-center-block bg-white border-6 shadow1 mt-20">
-            <!-- input cmt -->
-            <div class="input-cmt">
-							<div class="cmt-field d-flex">
-								<div class="cmt-avatar"><img src="./images/man1.jpg" alt=""></div>
-								<div class="cmt-form">
-									<form action="">
-										<div class="form-group-t">
-											<textarea id="comment_text" name="comment_text" class="textarea-cmt"	placeholder="Bạn muốn chia sẻ gì?"	oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
-										</div>
-									</form>
-								</div>
-							</div>
-              <div class="send-cmt post_comment click_cmt">
-                <img src="./images/send.svg" class="" width="20" height="20" alt="Bình luận">
+                <div class="main-center-block__header-btn bg-orange-da border-6">
+                  <img src="./images/ri_chat-follow-up-fill.svg" alt="">
+                  <span class="main-center-block__header-follow fw-700 text-white d-block">Theo dõi</span>
+                </div>
               </div>
-						</div>
-            <!-- end input cmt -->
-            <!-- line -->
-            <div class="cmt-line"></div>
-            <!-- end line -->
-            <!-- content text -->
-            <div class="comment mt-12">
-              <div class="d-flex">
-                <div class="cmt-avatar"><img src="./images/man1.jpg" alt=""></div>
-                <div class="cmt-content border-cmt-content ml-2 p-2">
-                  <div class="cmt-content__header d-flex align-items-center justify-content-between">
-                    <div class="d-lg-flex d-block align-items-center">
-                      <div class="cmt-content__title fs-12 font-arial text-black fw-700">
-                        Tuấn anh nguyễn</div>
-                      <span class="fs-12">&nbsp;-&nbsp;10 phút trước</span>
-                    </div>
-                    <div class="cmt-content__more position-relative">
-                      <ion-icon name="ellipsis-horizontal-outline" class="cmt-content__span"></ion-icon>
-                      <ul class="cmt-content__list">
-                        <li class="cmt-content__items fs-14 text-gray-77">
-                          Chỉnh sửa</li>
-                        <li class="cmt-content__items fs-14 text-gray-77">
-                          Xoá</li>
-                        <li class="cmt-content__items fs-14 text-gray-77">
-                          Báo cáo</li>
-                      </ul>
-                    </div>
+              <!-- end main block header -->
+              <figure class="expNoEdit">
+                <img src="./images/2.jpg" alt="">
+              </figure>
+              <!-- main block title -->
+              <div class="main-center-block__title fw-700 fs-14 pt-12 fix-text5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie egestas et nunc viverra quis tempus neque. Sed amet, consectetur arcu ac feugiat vestibulum mattis. Pellentesque nulla feugiat tincidunt in gravida vitae. In sodales sollicitudin duis et nisl, viverra diam urna.
+              </div>
+              <!-- end main block title -->
+              <!-- main center block fotter -->
+              <div class="main-center-block__footer mt-12">
+                <span class="main-center-block__footer-detail fw-700">
+                  <a href="#">Chi tiết</a>
+                </span>
+                <div class="main-center-block__footer-interact">
+                  <div class="main-center-block__footer-like">
+                    <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
+                    <span class="main-center-block__footer-count">12</span>
                   </div>
-                  <p class="cmt-content__text font-arial fs-12 text-gray-44 mt-2">
-                    Rất nhiều công trình trọng điểm do nhà
-                    thầu Trung Quốc thi công gặp rất nhiều
-                    trục trặc về tiến độ, đội vốn .. nhưng
-                    Trung Quốc vẫn luôn
-                    thắng
-                    thầu ở những dự án quan trọng tại Việt
-                    nam.
-                  </p>
-                  <div class="d-flex align-items-center justify-content-end mt-2">
-                    <div class="main-center-block__footer-interact">
-                      <div class="main-center-block__footer-like">
-                        <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
-                        <span class="main-center-block__footer-count">12</span>
-                      </div>
-                      <ion-icon name="arrow-undo" class=" main-center-block__footer-icon ml-2"></ion-icon>
-                    </div>
+                  <div class="main-center-block__footer-cmt">
+                    <i class="fas fa-comment-alt main-center-block__footer-icon"></i>
+                    <span class="main-center-block__footer-count">12</span>
                   </div>
                 </div>
               </div>
-              <div>
-                <!-- rep cmt -->
-                <div class="d-flex mt-2 detail-rep-cmt ">
-                  <div class="rep-icon">
-                    <img src="./images/rep.svg" alt="">
-                  </div>
-                  <div class="cmt-avatar"><img src="./images/man1.jpg" alt=""></div>
-                  <div class="cmt-content border-cmt-content ml-2 p-2">
-                    <div class="cmt-content__header d-flex align-items-center justify-content-between">
-                      <div class="d-lg-flex d-block align-items-center">
-                        <div class="cmt-content__title fs-12 font-arial text-black fw-700">
-                          Tuấn anh nguyễn</div>
-                        <span class="fs-12">&nbsp;-&nbsp;10 phút trước</span>
-                      </div>
-                      <div class="cmt-content__more position-relative">
-                        <ion-icon name="ellipsis-horizontal-outline" class="cmt-content__span"></ion-icon>
-                        <ul class="cmt-content__list">
-                          <li class="cmt-content__items fs-14 text-gray-77">
-                            Chỉnh sửa</li>
-                          <li class="cmt-content__items fs-14 text-gray-77">
-                            Xoá</li>
-                          <li class="cmt-content__items fs-14 text-gray-77">
-                            Báo cáo</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <p class="cmt-content__text font-arial fs-12 text-gray-44 mt-2">
-                      Rất nhiều công trình trọng điểm do nhà
-                      thầu Trung Quốc thi công gặp rất nhiều
-                      trục trặc về tiến độ, đội vốn .. nhưng
-                      Trung Quốc vẫn luôn
-                      thắng
-                      thầu ở những dự án quan trọng tại Việt
-                      nam.
-                    </p>
-                    <div class="d-flex align-items-center justify-content-end mt-2">
-                      <div class="main-center-block__footer-interact">
-                        <div class="main-center-block__footer-like">
-                          <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
-                          <span class="main-center-block__footer-count">12</span>
-                        </div>
-                        <ion-icon name="arrow-undo" class=" main-center-block__footer-icon ml-2"></ion-icon>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- end rep cmt -->
-                <!-- input cmt rep -->
-                <div class="input-cmt input-cmt-rep mt-2">
-                  <div class="cmt-field d-flex">
-                    <div class="cmt-avatar"><img src="./images/man1.jpg" alt=""></div>
-                    <div class="cmt-form">
-                      <form action="">
-                        <div class="form-group-t">
-                          <textarea id="comment_text" name="comment_text" class="textarea-cmt" placeholder="Bạn muốn chia sẻ gì?" oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="send-cmt post_comment click_cmt">
-                    <img src="./images/send.svg" class="" width="20" height="20" alt="Bình luận">
-                  </div>
-                </div>
-                <!-- end input cmt rep -->
-              </div>
-            </div>
-            <!-- end content text -->
-          </div>
-          <!-- end cmt -->
-          <!-- related-new tablte mb-->
-          <div class="related-new d-xl-none d-block">
-            <h3 class="related-new__title d-xl-none d-md-block d-none"><a href="#" class="text-gray-002 fw-700 fs-14 ">Tin liên quan</a></h3>
-            <div class="related-new__content">
-              <!-- block -->
-              <div class="main-center-block bg-white border-6 shadow1 mt-20">
-                <!-- main block header -->
-                <div class="main-center-block__header">
-                  <div class="main-center-block__header-info">
-                    <a href="#">
-                      <img src="./images/man1.jpg" alt="" class="main-center-block__header-avar">
-                      <div class="text-black">
-                        <h3 class="main-center-block__header-name fw-700 fs-12">Nguyễn Văn A</h3>
-                        <p class="main-center-block__header-public fs-12">10 phút trước</p>
-                      </div>
-                    </a>
-                  </div>
-                  <a href="#" class="text-gray-002 fs-14 fw-700 d-md-none d-block">Tin liên quan</a>
-                </div>
-                <!-- end main block header -->
-                <!-- main block title -->
-                <div class="main-center-block__title fw-700 fs-14 pt-12">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie egestas et nunc viverra quis tempus neque. Sed amet, consectetur arcu ac feugiat vestibulum mattis. Pellentesque nulla feugiat tincidunt in gravida vitae. In sodales sollicitudin duis et nisl, viverra diam urna.
-                </div>
-                <!-- end main block title -->
-                <!-- main block img -->
-                <figure class="expNoEdit">
-                  <img src="./images/2.jpg" alt="">
-                </figure>
-                <!-- end main block img -->
-                <!-- main center block fotter -->
-                <div class="main-center-block__footer mt-12">
-                  <span class="main-center-block__footer-detail fw-700">
-                    <a href="#">Chi tiết</a>
-                  </span>
-                  <div class="main-center-block__footer-interact">
-                    <div class="main-center-block__footer-like">
-                      <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
-                      <span class="main-center-block__footer-count">12</span>
-                    </div>
-                    <div class="main-center-block__footer-cmt">
-                      <i class="fas fa-comment-alt main-center-block__footer-icon"></i>
-                      <span class="main-center-block__footer-count">12</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- end main center block fotter -->
-              </div>
-              <!-- end block -->
-              <!-- block -->
-              <div class="main-center-block bg-white border-6 shadow1 mt-20">
-                <!-- main block header -->
-                <div class="main-center-block__header">
-                  <div class="main-center-block__header-info">
-                    <a href="#">
-                      <img src="./images/man1.jpg" alt="" class="main-center-block__header-avar">
-                      <div class="text-black">
-                        <h3 class="main-center-block__header-name fw-700 fs-12">Nguyễn Văn A</h3>
-                        <p class="main-center-block__header-public fs-12">10 phút trước</p>
-                      </div>
-                    </a>
-                  </div>
-                  <a href="#" class="text-gray-002 fs-14 fw-700 d-md-none d-block">Tin liên quan</a>
-                </div>
-                <!-- end main block header -->
-                <!-- main block title -->
-                <div class="main-center-block__title fw-700 fs-14 pt-12">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie egestas et nunc viverra quis tempus neque. Sed amet, consectetur arcu ac feugiat vestibulum mattis. Pellentesque nulla feugiat tincidunt in gravida vitae. In sodales sollicitudin duis et nisl, viverra diam urna.
-                </div>
-                <!-- end main block title -->
-                <!-- main block img -->
-                <figure class="expNoEdit">
-                  <img src="./images/2.jpg" alt="">
-                </figure>
-                <!-- end main block img -->
-                <!-- main center block fotter -->
-                <div class="main-center-block__footer mt-12">
-                  <span class="main-center-block__footer-detail fw-700">
-                    <a href="#">Chi tiết</a>
-                  </span>
-                  <div class="main-center-block__footer-interact">
-                    <div class="main-center-block__footer-like">
-                      <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
-                      <span class="main-center-block__footer-count">12</span>
-                    </div>
-                    <div class="main-center-block__footer-cmt">
-                      <i class="fas fa-comment-alt main-center-block__footer-icon"></i>
-                      <span class="main-center-block__footer-count">12</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- end main center block fotter -->
-              </div>
-              <!-- end block -->
+              <!-- end main center block fotter -->
             </div>
           </div>
-          <!-- end related-new tablte mb-->
+          <!-- end articles second -->
+
+
+          <!-- articles next -->
+          <div class="main-center-block bg-white border-6 shadow1 mt-20">
+            <!-- main block header -->
+            <div class="main-center-block__header">
+              <div class="main-center-block__header-info">
+                <a href="#">
+                  <img src="./images/man1.jpg" alt="" class="main-center-block__header-avar">
+                  <div class="text-black">
+                    <h3 class="main-center-block__header-name fw-700 fs-12">Nguyễn Văn A</h3>
+                    <p class="main-center-block__header-public fs-12">10 phút trước</p>
+                  </div>
+                </a>
+              </div>
+              <div class="main-center-block__header-btn bg-orange-da border-6">
+                <img src="./images/ri_chat-follow-up-fill.svg" alt="">
+                <span class="main-center-block__header-follow fw-700 text-white">Theo dõi</span>
+              </div>
+            </div>
+            <!-- end main block header -->
+            <!-- main block title -->
+            <div class="main-center-block__title fw-700 fs-14 pt-12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie egestas et nunc viverra quis tempus neque. Sed amet, consectetur arcu ac feugiat vestibulum mattis. Pellentesque nulla feugiat tincidunt in gravida vitae. In sodales sollicitudin duis et nisl, viverra diam urna.
+            </div>
+            <div class="main-center-block__des fs-14 pt-12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas enim pharetra, tristique nam nisl velit duis vel nam. Magna sit vulputate faucibus ultrices nascetur nunc, arcu auctor. Auctor quis aenean volutpat semper. Semper volutpat sed diam morbi neque, vitae, mattis aliquet. Fringilla nulla viverra a velit, convallis pulvinar eget dolor laoreet. Cras ac eget nunc sit purus. Aliquam, semper integer risus tincidunt. Lacinia sagittis, viverra in morbi nulla ut vitae laoreet. Dui lacus ornare quis mi vehicula suspendisse pulvinar luctus congue. Quam laoreet dictum pulvinar sit. Felis pulvinar non proin ut cursus urna.
+            </div>
+            <!-- end main block title -->
+            <!-- main block img -->
+            <figure class="expNoEdit">
+              <img src="./images/1.jpg" alt="">
+            </figure>
+            <!-- end main block img -->
+            <!-- main center block fotter -->
+            <div class="main-center-block__footer mt-12">
+              <span class="main-center-block__footer-detail fw-700">
+                <a href="#">Chi tiết</a>
+              </span>
+              <div class="main-center-block__footer-interact">
+                <div class="main-center-block__footer-like">
+                  <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
+                  <span class="main-center-block__footer-count">12</span>
+                </div>
+                <div class="main-center-block__footer-cmt">
+                  <i class="fas fa-comment-alt main-center-block__footer-icon"></i>
+                  <span class="main-center-block__footer-count">12</span>
+                </div>
+              </div>
+            </div>
+            <!-- end main center block fotter -->
+          </div>
+          <!-- end articles next -->
+          
+          <!-- read more -->
+          <div class="read-more my-3 text-center">
+            <button class="read-more-btn btn bg-orange-da border-999 fw-700 fs-14">Xem thêm</button>
+          </div>
+          <!-- end read more -->
         </div>
         <!-- end main block -->
 
@@ -990,76 +1046,103 @@
             </div>
           </div>
           <!-- end main right category -->
-          <!-- gia ca thi truong -->
-          <div class="d-xl-block d-none price-wrapper bg-white border-6 shadow1">
-            <h3 class="price-title text-orange-da fw-700 fs-14">Giá cả thị trường lâm sản</h3>
-            <p class="price-text-public text-black fs-12 pt-2 pb-3">(Thời điểm tính: Trưa ngày 12/12/2012)</p>
-            <div class="price-table">
-              <div class="price-item">
-                <div class="price-seed fw-700 fs-12 text-left">Hạt Điều</div>
-                <div class="price-curren fs-12 text-center">1,4tr VNĐ / Tấn</div>
-                <div class="price-decrease fw-700 fs-12 text-right">- 354.000 VNĐ</div>
+          <!-- trang ca nhan tablet -->
+          <div class="d-xl-none d-md-block d-none mb-20">
+            <div class="personal-profile bg-white border-6 shadow1 mt-20">
+                <h3 class="main-left__title fw-700 text-black">Trang cá nhân của:</h3>
+                <div class="d-flex align-items-center mx-10 main-left__title--line pb-10 mb-10">
+                    <img src="./images/man1.jpg" alt="" class="personal-profile__img">
+                    <div class="ml-3 personal-profile__text">
+                        <p class="fw-700 text-orange-da fs-12">Nguyễn Văn A</p>
+                        <p class="text-black fs-12 mt-1">Thành viên tích cực</p>
+                    </div>
+                </div>
+                <div class="personal-profile-statistical mx-10 main-left__title--line pb-10 mb-10">
+                    <div class="text-center">
+                        <p class="fs-18 fw-700 text-orange-da">109</p>
+                        <p class="text-black fs-12 mt-1">Bài viết</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="fs-18 fw-700 text-orange-da">109</p>
+                        <p class="text-black fs-12 mt-1">Bình luận</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="fs-18 fw-700 text-orange-da">109</p>
+                        <p class="text-black fs-12 mt-1">Lượt thích</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between fs-12 text-black mx-10 mb-10">
+                    <span>Truy cập lần cuối:</span>
+                    <span>11/11/2000</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between fs-12 text-black mx-10 mb-10">
+                    <span>Thành viên kể từ</span>
+                    <span>12/12/1999</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between fs-12 text-black mx-10 mb-10">
+                    <span>Huy hiệu đạt được:</span>
+                </div>
+                <div class="personal-armorial mb-10 mx-10 d-flex align-items-center justify-content-center">
+                    <img src="./images/ant-design_like-filled.png" alt="" class="personal-armorial__img">
+                    <img src="./images/bx_bxs-pen.png" alt="" class="personal-armorial__img">
+                    <img src="./images/bx_bxs-crown.png" alt="" class="personal-armorial__img">
+                </div>
               </div>
-              <div class="price-item">
-                <div class="price-seed fw-700 fs-12 text-left">Hạt Điều</div>
-                <div class="price-curren fs-12 text-center">1,4tr VNĐ / Tấn</div>
-                <div class="price-increase fw-700 fs-12 text-right">- 354.000 VNĐ</div>
+          </div>
+          <!-- end trang ca nhan tablet -->
+          <!-- weather -->
+          <div class="weather-wrapper bg-white border-6 shadow1">
+            <div class="weather-header">
+              <div class="weather-header-content">
+                <div class="d-flex align-items-center">
+                  <div class="weather-temperture text-orange-da fw-500">22</div>
+                  <div class="weather-temperture__sapo">Trời nhiều mây</div>
+                </div>
+                <div class="d-xl-block d-none">
+                  <p class="weather-city text-orange-da fw-700">Hà Nội, Việt Nam</p>
+                  <p class="weather-district">Phường Vĩnh Tuy, Quận Hai Bà Trưng</p>
+                </div>
               </div>
-              <div class="price-item">
-                <div class="price-seed fw-700 fs-12 text-left">Hạt Điều</div>
-                <div class="price-curren fs-12 text-center">1,4tr VNĐ / Tấn</div>
-                <div class="price-decrease fw-700 fs-12 text-right">- 354.000 VNĐ</div>
+              <div class="weather--header-img">
+                <img src="./images/Sunny.svg" alt="">
               </div>
-              <div class="price-item">
-                <div class="price-seed fw-700 fs-12 text-left">Hạt Điều</div>
-                <div class="price-curren fs-12 text-center">1,4tr VNĐ / Tấn</div>
-                <div class="price-increase fw-700 fs-12 text-right">- 354.000 VNĐ</div>
+              <div class="d-xl-none d-block mt-20">
+                <p class="weather-city text-orange-da fw-700">Hà Nội, Việt Nam</p>
+                <p class="weather-district">Phường Vĩnh Tuy, Quận Hai Bà Trưng</p>
+              </div>
+            </div>
+            <div class="weather-line"></div>
+            <div class="weather-detail">
+              <div class="weather-noon">
+                <div class="weather-noon__img">
+                  <img src="./images/Sunny.svg" alt="">
+                </div>
+                <div class="weather-noon__content pt-12">
+                  <div class="weather-detail-temperture text-gray-002 fw-700">22</div>
+                  <p class="weather-noon__content-time">Trưa</p>
+                </div>
+              </div>
+              <div class="weather-afternoon">
+                <div class="weather-noon__img">
+                  <img src="./images/Raining.svg" alt="">
+                </div>
+                <div class="weather-noon__content pt-12">
+                  <div class="weather-detail-temperture text-gray-002 fw-700">22</div>
+                  <p class="weather-noon__content-time">Chiều</p>
+                </div>
+              </div>
+              <div class="weather-night">
+                <div class="weather-noon__img">
+                  <img src="./images/Night-raining.svg" alt="">
+                </div>
+                <div class="weather-noon__content pt-12">
+                  <div class="weather-detail-temperture text-gray-002 fw-700">22</div>
+                  <p class="weather-noon__content-time">Tối</p>
+                </div>
               </div>
             </div>
           </div>
-          <!-- end gia ca thi truong -->
-          <!-- partner -->
-          <div class="main-right-partner bg-white border-6 shadow1 mt-20 py-3">
-            <h3 class="main-right-partner__title text-black fw-700 fs-14 px-3 pb-3">Đối tác chiến lược</h3>
-            <a href="#">
-              <img src="./images/3.jpg" alt="">
-            </a>
-          </div>
-          <!-- end partner -->
-          <!-- hot topic tablte -->
-          <div class="d-xl-none d-lg-block">
-            <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
-              <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Chủ đề nóng</h3>
-              <div class="main-left__content">
-                <div class="main-left__item">
-                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
-                    #Rác thải
-                  </a>
-                </div>
-                <div class="main-left__item">
-                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
-                    #ô nhiễm không khí
-                  </a>
-                </div>
-                <div class="main-left__item">
-                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
-                    #đốt rừng
-                  </a>
-                </div>
-                <div class="main-left__item">
-                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
-                    #khai thác gỗ lậu
-                  </a>
-                </div>
-                <div class="main-left__item">
-                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
-                    #dự án trồng rừng
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end hot topic tablte -->
+          <!-- end weather -->
           <!-- member hot tablte -->
           <div class="d-xl-none d-lg-block">
             <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
@@ -1143,30 +1226,40 @@
             </div>
           </div>
           <!-- end rating tablte -->
-          <!-- most view tablet-->
+          <!-- hot topic tablte -->
           <div class="d-xl-none d-lg-block">
             <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
-              <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Xem nhiều nhất</h3>
+              <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Chủ đề nóng</h3>
               <div class="main-left__content">
                 <div class="main-left__item">
-                  <a href="#" class="text-blue-00 fs-12">
-                    • Iaculis vulputate viverra enim, amet. Fermentum nunc, eget facilisis odio dictumst diam.
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #Rác thải
                   </a>
                 </div>
                 <div class="main-left__item">
-                  <a href="#" class="text-blue-00 fs-12">
-                    • Iaculis vulputate viverra enim, amet. Fermentum nunc, eget facilisis odio dictumst diam.
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #ô nhiễm không khí
                   </a>
                 </div>
                 <div class="main-left__item">
-                  <a href="#" class="text-blue-00 fs-12">
-                    • Iaculis vulputate viverra enim, amet. Fermentum nunc, eget facilisis odio dictumst diam.
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #đốt rừng
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #khai thác gỗ lậu
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #dự án trồng rừng
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <!-- end most view tablet-->
+          <!-- end hot topic tablte -->
           <!-- new member tablte -->
           <div class="d-xl-none d-lg-block">
             <div class="main-left-member-hot mt-20 bg-white border-6 shadow1">
@@ -1207,11 +1300,9 @@
           </div>
           <!-- end new member tablte -->
           
-          
-          
           <!-- main right theme -->
           <div class="d-xl-block d-none">
-            <div class="main-right-theme mt-20 detail-main-right-theme bg-white shadow1 border-6">
+            <div class="main-right-theme mt-20">
               <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Hỏi Đáp</a>
               <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Nông Nghiệp</a>
               <a href="#" class="main-right-theme-btn btn bg-orange-da border-999 fw-700 fs-14">Bất Động Sản</a>
@@ -1225,103 +1316,6 @@
             </div>
           </div>
           <!--end main right theme -->
-          <!-- related-new pc-->
-          <div class="related-new d-xl-block d-none">
-            <h3 class="related-new__title d-xl-none d-md-block d-none"><a href="#" class="text-gray-002 fw-700 fs-14">Tin liên quan</a></h3>
-            <div class="related-new__content">
-              <!-- block -->
-              <div class="main-center-block bg-white border-6 shadow1 mt-20">
-                <!-- main block header -->
-                <div class="main-center-block__header">
-                  <div class="main-center-block__header-info">
-                    <a href="#">
-                      <img src="./images/man1.jpg" alt="" class="main-center-block__header-avar">
-                      <div class="text-black">
-                        <h3 class="main-center-block__header-name fw-700 fs-12">Nguyễn Văn A</h3>
-                        <p class="main-center-block__header-public fs-12">10 phút trước</p>
-                      </div>
-                    </a>
-                  </div>
-                  <a href="#" class="text-gray-002 fs-14 fw-700">Tin liên quan</a>
-                </div>
-                <!-- end main block header -->
-                <!-- main block title -->
-                <div class="main-center-block__title fw-700 fs-14 pt-12">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie egestas et nunc viverra quis tempus neque. Sed amet, consectetur arcu ac feugiat vestibulum mattis. Pellentesque nulla feugiat tincidunt in gravida vitae. In sodales sollicitudin duis et nisl, viverra diam urna.
-                </div>
-                <!-- end main block title -->
-                <!-- main block img -->
-                <figure class="expNoEdit">
-                  <img src="./images/2.jpg" alt="">
-                </figure>
-                <!-- end main block img -->
-                <!-- main center block fotter -->
-                <div class="main-center-block__footer mt-12">
-                  <span class="main-center-block__footer-detail fw-700">
-                    <a href="#">Chi tiết</a>
-                  </span>
-                  <div class="main-center-block__footer-interact">
-                    <div class="main-center-block__footer-like">
-                      <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
-                      <span class="main-center-block__footer-count">12</span>
-                    </div>
-                    <div class="main-center-block__footer-cmt">
-                      <i class="fas fa-comment-alt main-center-block__footer-icon"></i>
-                      <span class="main-center-block__footer-count">12</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- end main center block fotter -->
-              </div>
-              <!-- end block -->
-              <!-- block -->
-              <div class="main-center-block bg-white border-6 shadow1 mt-20">
-                <!-- main block header -->
-                <div class="main-center-block__header">
-                  <div class="main-center-block__header-info">
-                    <a href="#">
-                      <img src="./images/man1.jpg" alt="" class="main-center-block__header-avar">
-                      <div class="text-black">
-                        <h3 class="main-center-block__header-name fw-700 fs-12">Nguyễn Văn A</h3>
-                        <p class="main-center-block__header-public fs-12">10 phút trước</p>
-                      </div>
-                    </a>
-                  </div>
-                  <a href="#" class="text-gray-002 fs-14 fw-700">Tin liên quan</a>
-                </div>
-                <!-- end main block header -->
-                <!-- main block title -->
-                <div class="main-center-block__title fw-700 fs-14 pt-12">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie egestas et nunc viverra quis tempus neque. Sed amet, consectetur arcu ac feugiat vestibulum mattis. Pellentesque nulla feugiat tincidunt in gravida vitae. In sodales sollicitudin duis et nisl, viverra diam urna.
-                </div>
-                <!-- end main block title -->
-                <!-- main block img -->
-                <figure class="expNoEdit">
-                  <img src="./images/2.jpg" alt="">
-                </figure>
-                <!-- end main block img -->
-                <!-- main center block fotter -->
-                <div class="main-center-block__footer mt-12">
-                  <span class="main-center-block__footer-detail fw-700">
-                    <a href="#">Chi tiết</a>
-                  </span>
-                  <div class="main-center-block__footer-interact">
-                    <div class="main-center-block__footer-like">
-                      <i class="fas fa-thumbs-up main-center-block__footer-icon"></i>
-                      <span class="main-center-block__footer-count">12</span>
-                    </div>
-                    <div class="main-center-block__footer-cmt">
-                      <i class="fas fa-comment-alt main-center-block__footer-icon"></i>
-                      <span class="main-center-block__footer-count">12</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- end main center block fotter -->
-              </div>
-              <!-- end block -->
-            </div>
-          </div>
-          <!-- end related-new pc-->
         </div>
       </section>
       <!-- end main-right -->
