@@ -1781,4 +1781,8 @@ img {
   color: #1DA1F2;
 }
 
+.form-post-textarea {
+  height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */

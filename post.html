@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.png" sizes="32x32">
+    <title>Lamnghiep</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- login -->
+    <section class="login-wrapper">
+      <div class="login-field bg-white border-6">
+          <div class="d-flex align-items-center justify-content-between">
+            <a href="#">
+              <img src="./images/logo.svg" alt="">
+            </a>
+            <ion-icon name="close-outline" class="login-close text-orange-da fs-24"></ion-icon>
+          </div>
+          <p class="text-gray-002 fw-500 fs-14 mt-3">Hãy tham gia chia sẻ cùng lamnghiep.vn</p>
+          <div class="login-form">
+            <form action="">
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="login-name" placeholder="Tên đăng nhập">
+              </div>
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="login-password" placeholder="Mật khẩu">
+              </div>
+              <button class="btn fw-700 fs-14 bg-orange-da text-uppecase mt-3 w-100 login-btn login-login">ĐĂNG NHẬP</button>
+            </form>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <p class="text-gray-002 fs-14 fw-500">Hoặc đăng nhập bằng</p>
+              <p><a href="#" class="text-gray-002 fs-14 fw-500 forgot-password
+                ">Quên mật khẩu?</a></p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-fb text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-facebook" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG FACEBOOK
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-twitter text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-twitter" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG TWITTER
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-gg text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-google" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG EMAIL
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-zalo text-uppecase fs-14">
+              <span class="mr-2">Zalo</span>
+              <span class=" fw-700">ĐĂNG NHẬP BẰNG ZALO</span>
+            </div>
+            <p class="text-gray-002 fw-500 fs-14 mt-3">Chưa có tài khoản?<span class="register-now"> Đăng ký ngay</span></p>
+          </div>
+      </div>
+    </section>
+    <!-- end login -->
+    <!-- register -->
+    <section class="register-wrapper">
+      <div class="register-field bg-white border-6">
+          <div class="d-flex align-items-center justify-content-between">
+            <a href="#">
+              <img src="./images/logo.svg" alt="">
+            </a>
+            <ion-icon name="close-outline" class="register-close text-orange-da fs-24"></ion-icon>
+          </div>
+          <p class="text-gray-002 fw-500 fs-14 mt-3">Đăng ký tài khoản để chia sẻ ngay!</p>
+          <div class="login-form">
+            <form action="">
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="register-name" placeholder="Tên đăng nhập (Ký tự từ a-z, số từ 0-9)">
+              </div>
+              <div class="form-group-t mt-3">
+                <input type="email" class="form-control-t border-6 login-input" name="register-email" placeholder="Địa chỉ Email">
+              </div>
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="register-password" placeholder="Mật khẩu">
+              </div>
+              <div class="form-group-t mt-3">
+                <input type="text" class="form-control-t border-6 login-input" name="register-retype-password" placeholder="Nhập lại mật khẩu">
+              </div>
+              <button class="btn fw-700 fs-14 bg-orange-da text-uppecase mt-3 w-100 login-btn register-login">ĐĂNG KÝ</button>
+            </form>
+            <p class="text-gray-002 fs-14 fw-500 mt-3">Hoặc đăng nhập bằng</p>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-fb text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-facebook" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG FACEBOOK
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-twitter text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-twitter" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG TWITTER
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-gg text-uppecase fs-14 fw-700">
+              <ion-icon name="logo-google" class="login-icon fs-24 mr-2"></ion-icon>
+              ĐĂNG NHẬP BẰNG EMAIL
+            </div>
+            <div class="d-flex align-items-center justify-content-center mt-3 text-white btn login-btn login-zalo text-uppecase fs-14">
+              <span class="mr-2">Zalo</span>
+              <span class=" fw-700">ĐĂNG NHẬP BẰNG ZALO</span>
+            </div>
+            <p class="text-gray-002 fw-500 fs-14 mt-3">Đã có tài khoản?<span class="login-now"> Đăng nhập ngay</span></p>
+          </div>
+      </div>
+    </section>
+    <!-- end register -->
+    <!-- menu mobile -->
+    <section class="menu-mb-wrapper">
+      <div class="menu-mb-field bg-white">
+        <ion-icon name="close-outline" class="fs-24 text-orange-da d-flex close-menu-mb"></ion-icon>
+        <div class="d-flex align-items-center justify-content-center mt-1">
+          <button class="header-right-item header-right-item__register btn bg-orange-da border-999 fw-700 fs-14">Đăng ký</button>
+          <button class="header-right-item header-right-item__login btn border-999 text-orange-da border-orange-da fw-700 fs-14">Đăng nhập</button>
+        </div>
+        <div class="menu-mb-search mt-12">
+          <form action="">
+            <div class="form-group-t position-relative">
+              <input type="text" class="form-control-t header-search-input" name="menu-mb-search" placeholder="Tìm kiếm">
+              <button class="menu-mb-search-btn">
+                <ion-icon name="search-outline" class="menu-mb-search-icon md hydrated" role="img" aria-label="search outline"></ion-icon>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="menu-mb-scroll">
+          <!-- hot topic mb -->
+          <div class="d-md-none d-block mt-20">
+            <div class="main-left-member-hot bg-white border-6 shadow1">
+              <h3 class="main-left__title main-left__title--line fw-700 text-orange-da">Chủ đề nóng</h3>
+              <div class="main-left__content">
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #Rác thải
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #ô nhiễm không khí
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #đốt rừng
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #khai thác gỗ lậu
+                  </a>
+                </div>
+                <div class="main-left__item">
+                  <a href="#" class="main-left-hot-topic__link btn border-999 bg-orange-da text-white fw-700 fs-12 text-uppecase">
+                    #dự án trồng rừng
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end hot topic mb -->
+          <!-- ul list -->
+          <ul class="menu-mb-list">
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/bi_question-lg.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Hỏi - Đáp</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/agriculture.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Nông nghiệp</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/property.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Bất động sản</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/index.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Kinh tế - Tài chính</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/technology.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Khoa học - Công nghệ</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/tree.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Giống cây trồng</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/plus.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Sức khỏe</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/music.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Giải trí</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/law.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Pháp luật</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+            <li class="menu-mb-item">
+              <a href="#" class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="./images/carbon_application.svg" alt="" class="menu-mb-item__img">
+                  <p class="menu-mb-item__text fs-14 fw-700 text-orange-da">Ứng dụng</p>
+                </div>
+                <ion-icon name="chevron-forward-outline" class="text-orange-da menu-mb-item-icon"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <!-- end ul list -->
+        </div>
+      </div>
+    </section>
+    <!-- end menu mobile -->
+    <!-- header -->
+    <header id="header" class=" bg-white shadow1">
+      <section class="header w-1220">
+        <!-- logo header -->
+        <div class="header-logo">
+          <a href="#">
+            <img src="./images/logo.svg" alt="">
+          </a>
+        </div>
+        <!-- end logo header -->
+        <!-- search header -->
+        <div class="header-search">
+          <form action="">
+            <div class="form-group-t position-relative">
+              <input type="text" class="form-control-t header-search-input" name="header-search" placeholder="Tìm kiếm">
+              <button class="header-search-btn">
+                <ion-icon name="search-outline" class="header-search-icon"></ion-icon>
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- end search header -->
+        <!-- header-right -->
+        <div class="header-right">
+          <div class="header-right-item header-right-icon header-right-wifi">
+            <img src="./images/wifi.svg" alt="">
+          </div>
+          <div class="header-right-item header-right-icon header-right-fb">
+            <img src="./images/fb.svg" alt="">
+          </div>
+          <div class="header-right-item header-right-icon header-right-notifi">
+            <img src="./images/bx_bxs-bell.svg" alt="" class="header-right-notifi__icon">
+            <div class="header-right-notifi__content bg-white border-6 shadow1">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h3 class="header-right-notifi__title fs-18 fw-700 text-black">Thông báo</h3>
+                    <div class="d-flex align-items-center">
+                        <ion-icon name="ellipsis-horizontal-outline" class="fs-20 text-orange-da header-right-notifi__more"></ion-icon>
+                        <ion-icon name="close-outline" class="fs-20 text-orange-da header-right-notifi__close ml-4"></ion-icon>
+                    </div>
+                </div>
+               
+                <div class="d-flex align-items-center justify-content-between mt-10 pb-12">
+                    <p class="fw-700 text-orange-da fs-14">Mới</p>
+                    <p class="text-orange-da fs-12">Xem tất cả</p>
+                </div>
+                <div class="cmt-line"></div>
+                <ul class="header-right-notifi__list pt-12">
+                    <li class="header-right-notifi__item">
+                        <a href="#" class="d-flex align-items-start">
+                            <img src="./images/man1.jpg" alt="" class="header-right-notifi__item-img">
+                            <p class="text-black fs-12"><span class="fw-700">Nguyễn Văn B</span> đã bình luận bài viết của bạn</p>
+                        </a>
+                    </li>
+                    <li class="header-right-notifi__item">
+                        <a href="#" class="d-flex align-items-start">
+                            <img src="./images/man1.jpg" alt="" class="header-right-notifi__item-img">
+                            <p class="text-black fs-12"><span class="fw-700">Nguyễn Văn B</span> đã thích bài viết của bạn</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center justify-content-between mt-4 pb-12">
+                    <p class="fw-700 text-orange-da fs-14">Đã xem</p>
+                </div>
+                <div class="cmt-line"></div>
+                <ul class="header-right-notifi__list pt-12">
+                    <li class="header-right-notifi__item">
+                        <a href="#" class="d-flex align-items-start">
+                            <img src="./images/man1.jpg" alt="" class="header-right-notifi__item-img">
+                            <p class="text-black fs-12"><span class="fw-700">Nguyễn Văn B</span> đã bình luận bài viết của bạn</p>
+                        </a>
+                    </li>
+                    <li class="header-right-notifi__item">
+                        <a href="#" class="d-flex align-items-start">
+                            <img src="./images/man1.jpg" alt="" class="header-right-notifi__item-img">
+                            <p class="text-black fs-12"><span class="fw-700">Nguyễn Văn B</span> đã thích bài viết của bạn</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="header-right-item header-right-icon header-right-user">
+            <img src="./images/man1.jpg" alt="" class="header-right-user__img">
+            <div class="header-right-user__content bg-white border-6 shadow1">
+                <ul class="header-right-user__content--list">
+                    <li class="header-right-user__content--item">
+                        <a href="#" class="text-orange-da d-flex align-items-center">
+                            <ion-icon name="person-circle-outline" class="fs-20 mr-2"></ion-icon>
+                            <p class="fs-14 fw-500">Trang cá nhân</p>
+                        </a>
+                    </li>
+                    <li class="header-right-user__content--item">
+                        <a href="#" class="text-orange-da d-flex align-items-center">
+                            <ion-icon name="settings-outline" class="fs-20 mr-2"></ion-icon>
+                            <p class="fs-14 fw-500">Cài đặt</p>
+                        </a>
+                    </li>
+                    <li class="header-right-user__content--item">
+                        <a href="#" class="text-orange-da d-flex align-items-center">
+                            <ion-icon name="log-out-outline" class="fs-20 mr-2 header-right-user__content--logout"></ion-icon>
+                            <p class="fs-14 fw-500">Đăng xuất</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="header-right-item header-right-icon header-right-bar">
+            <img src="./images/bar.svg" alt="">
+          </div>
+        </div>
+        <!-- end header-right -->
+      </section>
+    </header>
+    <!-- end header -->
+    <!-- hot category mobile -->
+    <section class="categiry-hot-mb d-sm-none d-block bg-orange-da">
+      <ul class="categiry-hot-mb-list">
+        <li class="categiry-hot-mb__item">
+          <a href="#" class="fs-14 fw-700 text-white">Nổi bật</a>
+        </li>
+        <li class="categiry-hot-mb__item">
+          <a href="#" class="fs-14 fw-700 text-white">Diễn đàn rừng vàng</a>
+        </li>
+        <li class="categiry-hot-mb__item">
+          <a href="#" class="fs-14 fw-700 text-white">Chính sách môi trường</a>
+        </li>
+        <li class="categiry-hot-mb__item">
+          <a href="#" class="fs-14 fw-700 text-white">Biến đổi khí hậu</a>
+        </li>
+        <li class="categiry-hot-mb__item">
+          <a href="#" class="fs-14 fw-700 text-white">Thảo luận</a>
+        </li>
+        <li class="categiry-hot-mb__item">
+          <a href="#" class="fs-14 fw-700 text-white">Điều khoản sử dụng</a>
+        </li>
+        <li class="categiry-hot-mb__item">
+          <a href="#" class="fs-14 fw-700 text-white">Chính sách bảo mật</a>
+        </li>
+        <li class="categiry-hot-mb__item">
+          <a href="#" class="fs-14 fw-700 text-white">Hỗ trợ</a>
+        </li>
+      </ul>
+    </section>
+    <!-- end hot category mobile -->
+    <!-- main -->
+    <main id="main" class="main w-1220 post-main">
+      <!-- main-left ko sd khoi nay-->
+      <section class="main-left-wrapper leftSidebar">
+      </section>
+      <!-- end main-left ko sd khoi nay-->
+      <!-- main-center -->
+      <section  class="main-center-wrapper">
+        <div class="post-wrapper">
+            <h3 class="fw-700 text-center fs-32 text-orange-da post-title">Tạo bài viết</h3>
+            <div class="post-form my-5">
+                <form action="">
+                    <div class="form-group-t">
+                        <textarea name="" id="" rows="20" class="w-100 form-control-t border-6 shadow1 form-post-textarea" placeholder="Hãy chia sẻ gì đó...!"></textarea>
+                    </div>
+                    <div class="form-group-t my-4">
+                        <input type="file" name="filefield" multiple="multiple">
+                    </div>
+                    <button class="btn w-100 bg-orange-da fw-700" type="submit">Đăng bài</button>
+                </form>
+            </div>
+        </div>
+      </section>
+      <!-- end main-center -->
+      <!-- main-right ko sd khoi nay-->
+      <section  class="main-right-wrapper rightSidebar">
+      </section>
+      <!-- end main-right ko sd khoi nay-->
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer id="footer" class="bg-orange-da mt-md-3">
+      <section class="footer w-1220">
+        <div class="footer-left">
+          <div class="d-md-none d-block">
+            <div class="main-left-cate__block bg-orange-da">
+              <div class="main-left-cate__item">
+                <a href="#" class="text-white">
+                  <img src="./images/rules.svg" alt="" class="main-left-cate__item-img">
+                  <h3 class="main-left-cate__item-title fw-500">Điều khoản sử dụng</h3>
+                </a>
+              </div>
+              <div class="main-left-cate__item">
+                <a href="#" class="text-white">
+                  <img src="./images/security.svg" alt="" class="main-left-cate__item-img">
+                  <h3 class="main-left-cate__item-title fw-500">Chính sách bảo mật</h3>
+                </a>
+              </div>
+              <div class="main-left-cate__item">
+                <a href="#" class="text-white">
+                  <img src="./images/support.svg" alt="" class="main-left-cate__item-img">
+                  <h3 class="main-left-cate__item-title fw-500">Hỗ trợ</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-center">
+          <div class="footer-center-item">
+            <p class="mb-3"><span class="fw-700">MẠNG XÃ HỘI LÂM NGHIỆP</span></p>
+            <p class="mb-1"><span class="fw-700">CHỊU TRÁCH NHIỆM NỘI DUNG:</span></p>
+            <p class="footer-center-item-text1">Ông Nguyễn Văn A - Tổng Biên Tập Tạp Chí Nguyễn Văn A</p>
+            <p class="mt-20 footer-center-item-text1 footer-center-item-text2">Giấy phép thiết lập Mạng xã hội số 111/GP-BTTT của Bộ TT&TT cấp ngày 11/11/2011</p>
+          </div>
+          <div class="footer-center-item">
+            <p class="mb-2"><span class="fw-700">Trụ sở chính:</span></p>
+            <p class="mb-2"><span class="fw-700">Địa chỉ</span>: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt Nam.</p>
+            <p class="mb-2"><span class="fw-700">SĐT</span>: 024 321 911 88</p>
+            <p class="mb-20"><span class="fw-700">Email</span>: bbt@lamnghiep.vn</p>
+            <p ><span class="fw-700">Liên hệ quảng cáo</span>: bbt@lamnghiep.vn | 02473081221</p>
+          </div>
+        </div>
+        <div class="footer-right"></div>
+      </section>
+    </footer>
+    <!-- end footer -->
+    <!-- back to top -->
+    <a href="#" class="back-top">
+      <ion-icon name="arrow-up-outline" class="back-top__icon text-white fs-20"></ion-icon>
+    </a>
+    <!-- end back to top -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="./js/ResizeSensor.js"></script>
+    <script src="./js/theia-sticky-sidebar.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

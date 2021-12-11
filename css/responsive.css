@@ -87,6 +87,10 @@
   .input-cmt-rep {
     margin-left: 2.75rem;
   }
+
+  .post-main {
+    display: block;
+  }
 }
 @media (min-width: 46.25em) and (max-width: 64em) {
   .main-right-category {
@@ -233,6 +237,10 @@
 
   .cmt-content__items {
     padding: 0.325rem 1rem;
+  }
+
+  .post-title {
+    font-size: 1.75rem;
   }
 }
 @media (max-width: 25em) {
